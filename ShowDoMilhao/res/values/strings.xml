@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShowDoMilhao</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="ContextoDados_onCreate">        
+        CREATE TABLE IF NOT EXISTS Perguntas (ID INTEGER PRIMARY KEY AUTOINCREMENT, Dificult Integer, TextoPergunta Text);\n
+        CREATE TABLE IF NOT EXISTS Alternativas (ID INTEGER PRIMARY KEY AUTOINCREMENT, IdPerg Integer, TextoAlternativa Text, Correta Integer);\n
+        CREATE TABLE IF NOT EXISTS Ranking (ID INTEGER PRIMARY KEY AUTOINCREMENT, NomeGamer Text, Premio Real, TextoPremio Text);\n
+		CREATE TABLE IF NOT EXISTS Premios (ID INTEGER PRIMARY KEY AUTOINCREMENT, NPergunta Integer, Acertar Text, Parar Text, Errar Text);
+	</string>
+    <string name="ContextoDados_onUpgrade">
+	        DROP TABLE IF EXISTS Perguntas;\n
+	        DROP TABLE IF EXISTS Alternativas;\n
+	        DROP TABLE IF EXISTS Ranking;\n
+	        DROP TABLE IF EXISTS Premios;
+	</string>
+</resources>

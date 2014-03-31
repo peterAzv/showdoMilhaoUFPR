@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundgaming"
+    android:orientation="horizontal" >
+	
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="303dp"
+    android:layout_marginLeft="5dp"
+    android:stretchColumns="1" >
+
+	<TableRow>
+
+		<TextView
+		    android:id="@+id/pnlpergunta"
+		    android:layout_width="430dp"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="5dp"
+		    android:layout_marginTop="30dp"
+		    android:background="@drawable/pnlpergunta"
+		    android:maxHeight="100dp"
+		    android:minHeight="60dp"
+		    android:padding="10dp"
+		    android:text="Pergunta realizada!"
+		    android:textColor="@android:color/black"
+		    android:textColorHint="@android:color/black" />
+
+	</TableRow>
+
+	<TableRow>
+
+		<LinearLayout
+		    android:layout_width="400dp"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+
+		    <Button
+		        android:id="@+id/btnresp1"
+		        android:layout_width="400dp"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="top"
+		        android:layout_margin="2dp"
+		        android:layout_marginLeft="5dp"
+		        android:background="@layout/btnrespost1"
+		        android:clickable="true"
+		        android:gravity="left|center_vertical"
+		        android:hint="@android:color/white"
+		        android:onClick="btnResposta1"
+		        android:paddingLeft="40dp"
+		        android:text="Resposta 1"
+		        android:textColor="@android:color/black"
+		        android:textColorHint="@android:color/black" />
+
+		    <Button
+		        android:id="@+id/btnresp2"
+		        android:layout_width="400dp"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="2dp"
+		        android:background="@layout/btnrespost2"
+		        android:clickable="true"
+		        android:gravity="left|center_vertical"
+		        android:onClick="btnResposta2"
+		        android:paddingLeft="40dp"
+		        android:text="Resposta 2"
+		        android:textColor="#000" />
+
+		    <Button
+		        android:id="@+id/btnresp3"
+		        android:layout_width="400dp"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="2dp"
+		        android:background="@layout/btnrespost3"
+		        android:clickable="true"
+		        android:gravity="left|center_vertical"
+		        android:onClick="btnResposta3"
+		        android:paddingLeft="40dp"
+		        android:text="Resposta 3"
+		        android:textColor="#000" />
+
+		    <Button
+		        android:id="@+id/btnresp4"
+		        android:layout_width="400dp"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="2dp"
+		        android:background="@layout/btnrespost4"
+		        android:clickable="true"
+		        android:gravity="left|center_vertical"
+		        android:onClick="btnResposta4"
+		        android:paddingLeft="40dp"
+		        android:text="Resposta 4"
+		        android:textColor="#000" />
+
+		</LinearLayout>
+
+
+  
+	</TableRow>
+
+	<TableRow>
+
+</TableRow>
+
+	<TableRow
+	    android:id="@+id/dados"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+	</TableRow>
+
+</TableLayout>
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" >
+			
+		    <RelativeLayout android:layout_height="wrap_content"
+		        			android:layout_width="fill_parent" 
+			    			android:layout_marginTop="20dp">
+
+			<TextView
+			    android:id="@+id/textView2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerHorizontal="true"
+			    android:text="Ajuda"
+			    android:textColor="@android:color/black"
+			    android:textColorHint="@android:color/white"
+			    android:textStyle="bold" />
+
+			</RelativeLayout>
+			
+		    <RelativeLayout android:layout_height="wrap_content"
+		        			android:layout_width="fill_parent">
+
+			<Button
+			    android:id="@+id/btnPulo"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerHorizontal="true"
+			    android:layout_margin="2dp"
+			    android:background="@layout/btnpulo"
+			    android:gravity="bottom|center"
+			    android:onClick="btnPular"
+			    android:text="Pular"
+			    android:textColor="#cecece"
+			    android:textStyle="bold" />
+
+			</RelativeLayout>
+			
+		    <RelativeLayout android:layout_height="wrap_content"
+		        			android:layout_width="fill_parent">
+
+			<Button
+			    android:id="@+id/btnCartas"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerHorizontal="true"
+			    android:layout_margin="2dp"
+			    android:background="@layout/btncartas"
+			    android:gravity="bottom|center"
+			    android:shadowColor="#000"
+			    android:shadowDx="2"
+			    android:shadowDy="1"
+			    android:shadowRadius="2"
+			    android:onClick="btnCartas"
+			    android:text="Cartas"
+			    android:textColor="#cecece"
+			    android:textStyle="bold" />
+
+			</RelativeLayout>
+
+		    <TextView
+		        android:id="@+id/TextView01"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Acertar"
+		        android:textAppearance="?android:attr/textAppearanceSmall"
+		        android:textColor="#000" />
+
+		    <Button
+		        android:id="@+id/btnAcertar"
+		        android:layout_width="80dp"
+		        android:layout_height="40dp"
+		        android:layout_marginTop="-5dp"
+		        android:background="@drawable/barrgold"
+		        android:text="3 MIL"
+		        android:textColor="#000"
+		        android:textStyle="bold" />
+
+			<TextView
+			    android:id="@+id/textView4"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="Parar"
+			    android:textAppearance="?android:attr/textAppearanceSmall"
+			    android:textColor="#000" />
+
+			<Button
+			    android:id="@+id/btnParar"
+			    android:layout_width="80dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="-5dp"
+			    android:background="@drawable/barrgold"
+			    android:onClick="btnParar"
+			    android:text="2 MIL"
+			    android:textColor="#000"
+			    android:textStyle="bold" />
+
+			<TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="Errar"
+			    android:textAppearance="?android:attr/textAppearanceSmall"
+			    android:textColor="#000" />
+
+			<Button
+			    android:id="@+id/btnErrar"
+			    android:layout_width="80dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="-5dp"
+			    android:background="@drawable/barrgold"
+			    android:text="1 MIL"
+			    android:textColor="#000"
+			    android:textStyle="bold" />
+
+		</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="ContextoDados_data">
+	    INSERT INTO Premios VALUES(?, 1, \"1000\", \"500\", \"0\");\n 
+	    INSERT INTO Premios VALUES(?, 2, \"2000\", \"1000\", \"500\" );\n
+	    INSERT INTO Premios VALUES(?, 3, \"3000\", \"2000\", \"1000\" );\n
+	    INSERT INTO Premios VALUES(?, 4, \"4000\", \"3000\", \"1500\" );\n
+	    INSERT INTO Premios VALUES(?, 5, \"5000\", \"4000\", \"2500\" );\n
+	    INSERT INTO Premios VALUES(?, 6, \"10000\", \"5000\", \"2500\" );\n
+	    INSERT INTO Premios VALUES(?, 7, \"20000\", \"10000\", \"5000\" );\n
+	    INSERT INTO Premios VALUES(?, 8, \"30000\", \"20000\", \"10000\" );\n
+	    INSERT INTO Premios VALUES(?, 9, \"40000\", \"30000\", \"15000\" );\n
+	    INSERT INTO Premios VALUES(?, 10, \"50000\", \"40000\", \"20000\" );\n
+	    INSERT INTO Premios VALUES(?, 11, \"100000\", \"50000\", \"25000\" );\n
+	    INSERT INTO Premios VALUES(?, 12, \"200000\", \"100000\", \"50000\" );\n
+	    INSERT INTO Premios VALUES(?, 13, \"300000\", \"200000\", \"100000\" );\n
+	    INSERT INTO Premios VALUES(?, 14, \"400000\", \"300000\", \"150000\" );\n
+	    INSERT INTO Premios VALUES(?, 15, \"500000\", \"400000\", \"200000\" );\n
+	    INSERT INTO Premios VALUES(?, 16, \"1000000\", \"500000\", \"0\" );\n
+		INSERT INTO Perguntas VALUES(1,1,\" Quem foi considerado o homem mais sedutor do mundo?\");\n
+		INSERT INTO Alternativas VALUES(?, 1, \"Dom Juan\",1);\n
+		INSERT INTO Alternativas VALUES(?, 1, \"Dom Antônio\",0);\n
+		INSERT INTO Alternativas VALUES(?, 1, \"Dom Marco\",0);\n
+		INSERT INTO Alternativas VALUES(?, 1, \"Dom Carlos\",0);\n
+		INSERT INTO Perguntas VALUES(2,1,\" De quantos anos é constituído um século?\");\n
+		INSERT INTO Alternativas VALUES(?, 2, \"50\",0);\n
+		INSERT INTO Alternativas VALUES(?, 2, \"100\",1);\n
+		INSERT INTO Alternativas VALUES(?, 2, \"1000\",0);\n
+		INSERT INTO Alternativas VALUES(?, 2, \"1500\",0);\n
+		INSERT INTO Perguntas VALUES(3,1,\" Qual é o coletivo de cães?\");\n
+		INSERT INTO Alternativas VALUES(?, 3, \"Matilha\",1);\n
+		INSERT INTO Alternativas VALUES(?, 3, \"Rebanho\",0);\n
+		INSERT INTO Alternativas VALUES(?, 3, \"Cardume\",0);\n
+		INSERT INTO Alternativas VALUES(?, 3, \"Manada\",0);\n
+		INSERT INTO Perguntas VALUES(4,1,\" Segundo a Bíblia, em que rio Jesus foi batizado por João Batista?\");\n
+		INSERT INTO Alternativas VALUES(?, 4, \"No Rio Nilo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 4, \"No Rio Sena\",0);\n
+		INSERT INTO Alternativas VALUES(?, 4, \"No Rio Reno\",0);\n
+		INSERT INTO Alternativas VALUES(?, 4, \"No Rio Jordão\",1);\n
+		INSERT INTO Perguntas VALUES(5,1,\" Qual é a maior floresta do planeta?\");\n
+		INSERT INTO Alternativas VALUES(?, 5, \"Negra\",0);\n
+		INSERT INTO Alternativas VALUES(?, 5, \"De Sherwood\",0);\n
+		INSERT INTO Alternativas VALUES(?, 5, \"Da Tijuca\",0);\n
+		INSERT INTO Alternativas VALUES(?, 5, \"Amazônica\",1);\n
+		INSERT INTO Perguntas VALUES(6,1,\" Qual é o naipe do baralho que tem o desenho de coração?\");\n
+		INSERT INTO Alternativas VALUES(?, 6, \"Ouros\",0);\n
+		INSERT INTO Alternativas VALUES(?, 6, \"Paus\",0);\n
+		INSERT INTO Alternativas VALUES(?, 6, \"Copas\",1);\n
+		INSERT INTO Alternativas VALUES(?, 6, \"Espadas\",0);\n
+		INSERT INTO Perguntas VALUES(7,1,\" Qual atriz estrelou no filme: A lagoa azul?\");\n
+		INSERT INTO Alternativas VALUES(?, 7, \"Alicia Silverstone\",0);\n
+		INSERT INTO Alternativas VALUES(?, 7, \"Brooke Shields\",1);\n
+		INSERT INTO Alternativas VALUES(?, 7, \"Julia Roberts\",0);\n
+		INSERT INTO Alternativas VALUES(?, 7, \"Jessica Lange\",0);\n
+		INSERT INTO Perguntas VALUES(8,1,\" Segundo a biblia, qual casal foi expulso do Paraíso?\");\n
+		INSERT INTO Alternativas VALUES(?, 8, \"Sansão E Dalila\",0);\n
+		INSERT INTO Alternativas VALUES(?, 8, \"José E Maria\",0);\n
+		INSERT INTO Alternativas VALUES(?, 8, \"Sara E Abraão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 8, \"Adão E Eva\",1);\n
+		INSERT INTO Perguntas VALUES(9,1,\" Segundo os contos, qual animal ao ser beijado se transforma em príncipe?\");\n
+		INSERT INTO Alternativas VALUES(?, 9, \"Cavalo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 9, \"Cão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 9, \"Gato\",0);\n
+		INSERT INTO Alternativas VALUES(?, 9, \"Sapo\",1);\n
+		INSERT INTO Perguntas VALUES(10,1,\" Qual é o santo que só acreditou vendo?\");\n
+		INSERT INTO Alternativas VALUES(?, 10, \"Santo Antônio\",0);\n
+		INSERT INTO Alternativas VALUES(?, 10, \"São Judas Tadeu\",0);\n
+		INSERT INTO Alternativas VALUES(?, 10, \"São Pedro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 10, \"São Tomé\",1);\n
+		INSERT INTO Perguntas VALUES(11,1,\" Qual é o fruto conhecido no nordeste do Brasil como jerimum?\");\n
+		INSERT INTO Alternativas VALUES(?, 11, \"Caju\",0);\n
+		INSERT INTO Alternativas VALUES(?, 11, \"Abóbora\",1);\n
+		INSERT INTO Alternativas VALUES(?, 11, \"Chuchu\",0);\n
+		INSERT INTO Alternativas VALUES(?, 11, \"Coco\",0);\n
+		INSERT INTO Perguntas VALUES(12,1,\" Em qual parte do corpo humano são implantadas as pontes de safena?\");\n
+		INSERT INTO Alternativas VALUES(?, 12, \"Estômago\",0);\n
+		INSERT INTO Alternativas VALUES(?, 12, \"Intestino\",0);\n
+		INSERT INTO Alternativas VALUES(?, 12, \"Pulmão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 12, \"Coração\",1);\n
+		INSERT INTO Perguntas VALUES(13,1,\" Como é conhecido o jogador Edmundo?\");\n
+		INSERT INTO Alternativas VALUES(?, 13, \"Tigrão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 13, \"Gatinho\",0);\n
+		INSERT INTO Alternativas VALUES(?, 13, \"Animal\",1);\n
+		INSERT INTO Alternativas VALUES(?, 13, \"Cobra\",0);\n
+		INSERT INTO Perguntas VALUES(14,1,\" Na literatura, quem foi o criador da boneca Emília?\");\n
+		INSERT INTO Alternativas VALUES(?, 14, \"Monteiro Lobato\",1);\n
+		INSERT INTO Alternativas VALUES(?, 14, \"Maurício De Souza\",0);\n
+		INSERT INTO Alternativas VALUES(?, 14, \"Walt Disney\",0);\n
+		INSERT INTO Alternativas VALUES(?, 14, \"Jorge Amado\",0);\n
+		INSERT INTO Perguntas VALUES(15,1,\" Quem é o primeiro substituto do Presidente?\");\n
+		INSERT INTO Alternativas VALUES(?, 15, \"Vereador\",0);\n
+		INSERT INTO Alternativas VALUES(?, 15, \"Vice-Presidente\",1);\n
+		INSERT INTO Alternativas VALUES(?, 15, \"Senador\",0);\n
+		INSERT INTO Alternativas VALUES(?, 15, \"Deputado\",0);\n
+		INSERT INTO Perguntas VALUES(16,1,\" Segundo o romance, que animal era Moby Dick?\");\n
+		INSERT INTO Alternativas VALUES(?, 16, \"Tubarão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 16, \"Golfinho\",0);\n
+		INSERT INTO Alternativas VALUES(?, 16, \"Polvo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 16, \"Baleia\",1);\n
+		INSERT INTO Perguntas VALUES(17,1,\" Qual é o animal que representa o signo de áries?\");\n
+		INSERT INTO Alternativas VALUES(?, 17, \"Touro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 17, \"Leão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 17, \"Carneiro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 17, \"Bode\",0);\n
+		INSERT INTO Perguntas VALUES(18,1,\" Que animal é o Pateta?\");\n
+		INSERT INTO Alternativas VALUES(?, 18, \"Cavalo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 18, \"Burro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 18, \"Cachorro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 18, \"Raposa\",0);\n
+		INSERT INTO Perguntas VALUES(19,1,\" Em qual cidade está o Cristo Redentor do Corcovado?\");\n
+		INSERT INTO Alternativas VALUES(?, 19, \"Rio De Janeiro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 19, \"São Paulo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 19, \"Curitiba\",0);\n
+		INSERT INTO Alternativas VALUES(?, 19, \"Belo Horizonte\",0);\n
+		INSERT INTO Perguntas VALUES(20,1,\" Quem é conhecido como o playboy brasileiro?\");\n
+		INSERT INTO Alternativas VALUES(?, 20, \"Joãozinho Trinta\",0);\n
+		INSERT INTO Alternativas VALUES(?, 20, \"Zeca Pagodinho\",0);\n
+		INSERT INTO Alternativas VALUES(?, 20, \"Chiquinho Scarpa\",1);\n
+		INSERT INTO Alternativas VALUES(?, 20, \"Chico Buarque\",0);\n
+		INSERT INTO Perguntas VALUES(21,2,\" Quantos centímetros equivalem a um metro?\");\n
+		INSERT INTO Alternativas VALUES(?, 21, \"10\",0);\n
+		INSERT INTO Alternativas VALUES(?, 21, \"100\",1);\n
+		INSERT INTO Alternativas VALUES(?, 21, \"1000\",0);\n
+		INSERT INTO Alternativas VALUES(?, 21, \"10000\",0);\n
+		INSERT INTO Perguntas VALUES(22,2,\" Qual é o nome do macho da abelha?\");\n
+		INSERT INTO Alternativas VALUES(?, 22, \"Zângão\",1);\n
+		INSERT INTO Alternativas VALUES(?, 22, \"Abelhão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 22, \"Rufião\",0);\n
+		INSERT INTO Alternativas VALUES(?, 22, \"Pulgão\",0);\n
+		INSERT INTO Perguntas VALUES(23,2,\" Qual é o inseto que transmite a doença de Chagas?\");\n
+		INSERT INTO Alternativas VALUES(?, 23, \"Abelha\",0);\n
+		INSERT INTO Alternativas VALUES(?, 23, \"Barata\",0);\n
+		INSERT INTO Alternativas VALUES(?, 23, \"Barbeiro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 23, \"Pulga\",0);\n
+		INSERT INTO Perguntas VALUES(24,2,\" Qual é o nome do conjunto de dados estatísticos sobre uma população?\");\n
+		INSERT INTO Alternativas VALUES(?, 24, \"Censo\",1);\n
+		INSERT INTO Alternativas VALUES(?, 24, \"Contagem\",0);\n
+		INSERT INTO Alternativas VALUES(?, 24, \"Marcação\",0);\n
+		INSERT INTO Alternativas VALUES(?, 24, \"Registro\",0);\n
+		INSERT INTO Perguntas VALUES(25,2,\" Qual ator imortalizou o personagem Zé Bonitinho?\");\n
+		INSERT INTO Alternativas VALUES(?, 25, \"Roni Cócegas\",0);\n
+		INSERT INTO Alternativas VALUES(?, 25, \"Jorge Loredo\",1);\n
+		INSERT INTO Alternativas VALUES(?, 25, \"Davi Pinheiro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 25, \"Arnaud Rodrigues\",0);\n
+		INSERT INTO Perguntas VALUES(26,2,\" Qual a cantora conhecida como A rainha dos caminhoneiros?\");\n
+		INSERT INTO Alternativas VALUES(?, 26, \"Roberta Miranda\",0);\n
+		INSERT INTO Alternativas VALUES(?, 26, \"Maria Bethânia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 26, \"Sula Miranda\",1);\n
+		INSERT INTO Alternativas VALUES(?, 26, \"Rita Cadillac\",0);\n
+		INSERT INTO Perguntas VALUES(27,2,\" Qual é o nome da missa rezada no Natal?\");\n
+		INSERT INTO Alternativas VALUES(?, 27, \"Campal\",0);\n
+		INSERT INTO Alternativas VALUES(?, 27, \"Do Galo\",1);\n
+		INSERT INTO Alternativas VALUES(?, 27, \"Do Vaticano\",0);\n
+		INSERT INTO Alternativas VALUES(?, 27, \"De Sétimo Dia\",0);\n
+		INSERT INTO Perguntas VALUES(28,2,\" Qual é a orixá conhecida como A rainha do mar?\");\n
+		INSERT INTO Alternativas VALUES(?, 28, \"Mamãe\",0);\n
+		INSERT INTO Alternativas VALUES(?, 28, \"Oxum\",1);\n
+		INSERT INTO Alternativas VALUES(?, 28, \"Iemanjá\",0);\n
+		INSERT INTO Alternativas VALUES(?, 28, \"Axé\",0);\n
+		INSERT INTO Perguntas VALUES(29,2,\" No julgamento de Jesus, quem disse a frase: Eu lavo minhas mãos?\");\n
+		INSERT INTO Alternativas VALUES(?, 29, \"Barrabás\",0);\n
+		INSERT INTO Alternativas VALUES(?, 29, \"Tibério\",0);\n
+		INSERT INTO Alternativas VALUES(?, 29, \"Pôncio Pilatos\",1);\n
+		INSERT INTO Alternativas VALUES(?, 29, \"Judas\",0);\n
+		INSERT INTO Perguntas VALUES(30,2,\" O que está no centro da Terra?\");\n
+		INSERT INTO Alternativas VALUES(?, 30, \"Manto\",0);\n
+		INSERT INTO Alternativas VALUES(?, 30, \"Núcleo\",1);\n
+		INSERT INTO Alternativas VALUES(?, 30, \"Hidrosfera\",0);\n
+		INSERT INTO Alternativas VALUES(?, 30, \"Litosfera\",0);\n
+		INSERT INTO Perguntas VALUES(31,2,\" Qual é o esporte praticado por Fernando Scherer, o Xuxa?\");\n
+		INSERT INTO Alternativas VALUES(?, 31, \"Ciclismo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 31, \"Vôlei De Praia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 31, \"Natação\",1);\n
+		INSERT INTO Alternativas VALUES(?, 31, \"Surf\",0);\n
+		INSERT INTO Perguntas VALUES(32,2,\" Quem libertou os escravos em 1888?\");\n
+		INSERT INTO Alternativas VALUES(?, 32, \"Joana DArc\",0);\n
+		INSERT INTO Alternativas VALUES(?, 32, \"Anita Garibaldi\",0);\n
+		INSERT INTO Alternativas VALUES(?, 32, \"Princesa Isabel\",1);\n
+		INSERT INTO Alternativas VALUES(?, 32, \"Imperatriz Leopoldina\",0);\n
+		INSERT INTO Perguntas VALUES(33,2,\" Quem fez sucesso com a personagem Tiazinha?\");\n
+		INSERT INTO Alternativas VALUES(?, 33, \"Suzana Werner\",0);\n
+		INSERT INTO Alternativas VALUES(?, 33, \"Joana Prado\",0);\n
+		INSERT INTO Alternativas VALUES(?, 33, \"Letícia Spiller\",0);\n
+		INSERT INTO Alternativas VALUES(?, 33, \"Suzana Alves\",1);\n
+		INSERT INTO Perguntas VALUES(34,2,\" Quantos eram os anões da história A branca de neve?\");\n
+		INSERT INTO Alternativas VALUES(?, 34, \"Seis\",0);\n
+		INSERT INTO Alternativas VALUES(?, 34, \"Sete\",1);\n
+		INSERT INTO Alternativas VALUES(?, 34, \"Oito\",0);\n
+		INSERT INTO Alternativas VALUES(?, 34, \"Nove\",0);\n
+		INSERT INTO Perguntas VALUES(35,2,\" Como eram chamados os navios que traziam os escravos para o Brasil?\");\n
+		INSERT INTO Alternativas VALUES(?, 35, \"Branqueiros\",0);\n
+		INSERT INTO Alternativas VALUES(?, 35, \"Pesqueiros\",0);\n
+		INSERT INTO Alternativas VALUES(?, 35, \"Negreiros\",1);\n
+		INSERT INTO Alternativas VALUES(?, 35, \"Costeiros\",0);\n
+		INSERT INTO Perguntas VALUES(36,2,\" De qual grupo de samba fez parte o humorista Mussum?\");\n
+		INSERT INTO Alternativas VALUES(?, 36, \"Fundo De Quintal\",0);\n
+		INSERT INTO Alternativas VALUES(?, 36, \"Titulares Do Ritmo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 36, \"Originais Do Samba\",1);\n
+		INSERT INTO Alternativas VALUES(?, 36, \"Banda Brasil\",0);\n
+		INSERT INTO Perguntas VALUES(37,2,\" Como se chama o lugar onde ficam as mulheres do sultão?\");\n
+		INSERT INTO Alternativas VALUES(?, 37, \"Harém\",1);\n
+		INSERT INTO Alternativas VALUES(?, 37, \"Labirinto\",0);\n
+		INSERT INTO Alternativas VALUES(?, 37, \"Coliseu\",0);\n
+		INSERT INTO Alternativas VALUES(?, 37, \"Choupana\",0);\n
+		INSERT INTO Perguntas VALUES(38,2,\" Quantas cores compõem o arco-íris?\");\n
+		INSERT INTO Alternativas VALUES(?, 38, \"3\",0);\n
+		INSERT INTO Alternativas VALUES(?, 38, \"7\",1);\n
+		INSERT INTO Alternativas VALUES(?, 38, \"12\",0);\n
+		INSERT INTO Alternativas VALUES(?, 38, \"22\",0);\n
+		INSERT INTO Perguntas VALUES(39,2,\" Qual é o nome da mulher de Fred Flintstone?\");\n
+		INSERT INTO Alternativas VALUES(?, 39, \"Beth\",0);\n
+		INSERT INTO Alternativas VALUES(?, 39, \"Wilma\",1);\n
+		INSERT INTO Alternativas VALUES(?, 39, \"Margarida\",0);\n
+		INSERT INTO Alternativas VALUES(?, 39, \"Clarabela\",0);\n
+		INSERT INTO Perguntas VALUES(40,2,\" Por quem foi dita a frase: Abra-te Sézamo?\");\n
+		INSERT INTO Alternativas VALUES(?, 40, \"D. Pedro I\",0);\n
+		INSERT INTO Alternativas VALUES(?, 40, \"Hércules\",0);\n
+		INSERT INTO Alternativas VALUES(?, 40, \"Ali Babá\",1);\n
+		INSERT INTO Alternativas VALUES(?, 40, \"Dunga\",0);\n
+		INSERT INTO Perguntas VALUES(41,3,\" Em qual cidade está localizada a famosa estátua da Liberdade?\");\n
+		INSERT INTO Alternativas VALUES(?, 41, \"Londres\",0);\n
+		INSERT INTO Alternativas VALUES(?, 41, \"Nova York\",1);\n
+		INSERT INTO Alternativas VALUES(?, 41, \"Paris\",0);\n
+		INSERT INTO Alternativas VALUES(?, 41, \"Madri\",0);\n
+		INSERT INTO Perguntas VALUES(42,3,\" Qual destes personagens não veste uma capa?\");\n
+		INSERT INTO Alternativas VALUES(?, 42, \"Super-Homem\",0);\n
+		INSERT INTO Alternativas VALUES(?, 42, \"Batman\",0);\n
+		INSERT INTO Alternativas VALUES(?, 42, \"Wolverine\",1);\n
+		INSERT INTO Alternativas VALUES(?, 42, \"Zorro\",0);\n
+		INSERT INTO Perguntas VALUES(43,3,\" Quem é considerado o rei do mundo animal?\");\n
+		INSERT INTO Alternativas VALUES(?, 43, \"Elefante\",0);\n
+		INSERT INTO Alternativas VALUES(?, 43, \"Gorila\",0);\n
+		INSERT INTO Alternativas VALUES(?, 43, \"Leão\",1);\n
+		INSERT INTO Alternativas VALUES(?, 43, \"Rinoceronte\",0);\n
+		INSERT INTO Perguntas VALUES(44,3,\" Qual é o livro mais impresso no mundo?\");\n
+		INSERT INTO Alternativas VALUES(?, 44, \"Jubiabá\",0);\n
+		INSERT INTO Alternativas VALUES(?, 44, \"Bíblia\",1);\n
+		INSERT INTO Alternativas VALUES(?, 44, \"Gabriela, Cravo E Canela\",0);\n
+		INSERT INTO Alternativas VALUES(?, 44, \"Terras Do Sem Fim\",0);\n
+		INSERT INTO Perguntas VALUES(45,3,\" Qual é o nome do osso da coxa do ser humano?\");\n
+		INSERT INTO Alternativas VALUES(?, 45, \"Fêmur\",1);\n
+		INSERT INTO Alternativas VALUES(?, 45, \"Tíbia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 45, \"Perônio\",0);\n
+		INSERT INTO Alternativas VALUES(?, 45, \"Úmero\",0);\n
+		INSERT INTO Perguntas VALUES(46,3,\" Como se chama o espaço de tempo entre o nascer e o pôrdo-sol?\");\n
+		INSERT INTO Alternativas VALUES(?, 46, \"Madrugada\",0);\n
+		INSERT INTO Alternativas VALUES(?, 46, \"Dia\",1);\n
+		INSERT INTO Alternativas VALUES(?, 46, \"Noite\",0);\n
+		INSERT INTO Alternativas VALUES(?, 46, \"Semana\",0);\n
+		INSERT INTO Perguntas VALUES(47,3,\" Os nomes Batman e Rainman referem-se a quê?\");\n
+		INSERT INTO Alternativas VALUES(?, 47, \"Artistas De Teatro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 47, \"Filmes De Cinema\",1);\n
+		INSERT INTO Alternativas VALUES(?, 47, \"Conjuntos De Rock\",0);\n
+		INSERT INTO Alternativas VALUES(?, 47, \"Marcas De Cigarro\",0);\n
+		INSERT INTO Perguntas VALUES(48,3,\" De acordo com o ditado, o que não adianta chorar?\");\n
+		INSERT INTO Alternativas VALUES(?, 48, \"Folhas Caídas\",0);\n
+		INSERT INTO Alternativas VALUES(?, 48, \"Leite Derramado\",1);\n
+		INSERT INTO Alternativas VALUES(?, 48, \"Doce Queimado\",0);\n
+		INSERT INTO Alternativas VALUES(?, 48, \"Pão Velho\",0);\n
+		INSERT INTO Perguntas VALUES(49,3,\" Em qual destas atividades a corda tem um papel vital?\");\n
+		INSERT INTO Alternativas VALUES(?, 49, \"Surfe\",0);\n
+		INSERT INTO Alternativas VALUES(?, 49, \"Ciclismo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 49, \"Tourada\",0);\n
+		INSERT INTO Alternativas VALUES(?, 49, \"Pára-Quedismo\",1);\n
+		INSERT INTO Perguntas VALUES(50,3,\" Como se chama o boneco controlado por cordas?\");\n
+		INSERT INTO Alternativas VALUES(?, 50, \"Robô\",0);\n
+		INSERT INTO Alternativas VALUES(?, 50, \"Marionete\",1);\n
+		INSERT INTO Alternativas VALUES(?, 50, \"Andróide\",0);\n
+		INSERT INTO Alternativas VALUES(?, 50, \"Manequim\",0);\n
+		INSERT INTO Perguntas VALUES(51,3,\" Como são chamados os pedaços de gelo que caem durante a chuva?\");\n
+		INSERT INTO Alternativas VALUES(?, 51, \"Granito\",0);\n
+		INSERT INTO Alternativas VALUES(?, 51, \"Granizo\",1);\n
+		INSERT INTO Alternativas VALUES(?, 51, \"Picolé\",0);\n
+		INSERT INTO Alternativas VALUES(?, 51, \"Neve\",0);\n
+		INSERT INTO Perguntas VALUES(52,3,\" Qual Deus é descrito como uma criança gorducha com arco e flecha?\");\n
+		INSERT INTO Alternativas VALUES(?, 52, \"Cupido\",1);\n
+		INSERT INTO Alternativas VALUES(?, 52, \"Zeus\",0);\n
+		INSERT INTO Alternativas VALUES(?, 52, \"Mercúrio\",0);\n
+		INSERT INTO Alternativas VALUES(?, 52, \"Netuno\",0);\n
+		INSERT INTO Perguntas VALUES(53,3,\" No desenho Papa-léguas qual é o som feito pela ave corredora?\");\n
+		INSERT INTO Alternativas VALUES(?, 53, \"Ping! Ping!\",0);\n
+		INSERT INTO Alternativas VALUES(?, 53, \"Uga! Uga!\",0);\n
+		INSERT INTO Alternativas VALUES(?, 53, \"Bip! Bip!\",1);\n
+		INSERT INTO Alternativas VALUES(?, 53, \"Vrum! Vrum!\",0);\n
+		INSERT INTO Perguntas VALUES(54,3,\" Qual destes alimentos devemos consumir em menor quantidade?\");\n
+		INSERT INTO Alternativas VALUES(?, 54, \"Vegetais\",0);\n
+		INSERT INTO Alternativas VALUES(?, 54, \"Gorduras\",1);\n
+		INSERT INTO Alternativas VALUES(?, 54, \"Legumes\",0);\n
+		INSERT INTO Alternativas VALUES(?, 54, \"Frutas\",0);\n
+		INSERT INTO Perguntas VALUES(55,3,\" O que Cinderela perdeu ao sair do baile do palácio real?\");\n
+		INSERT INTO Alternativas VALUES(?, 55, \"Bolsa\",0);\n
+		INSERT INTO Alternativas VALUES(?, 55, \"Luva\",0);\n
+		INSERT INTO Alternativas VALUES(?, 55, \"Carteira De Motorista\",0);\n
+		INSERT INTO Alternativas VALUES(?, 55, \"Sapato De Cristal\",1);\n
+		INSERT INTO Perguntas VALUES(56,3,\" Como se chama a luz que guia os navios em áreas de risco?\");\n
+		INSERT INTO Alternativas VALUES(?, 56, \"Vela\",0);\n
+		INSERT INTO Alternativas VALUES(?, 56, \"Farol\",1);\n
+		INSERT INTO Alternativas VALUES(?, 56, \"Fogueira\",0);\n
+		INSERT INTO Alternativas VALUES(?, 56, \"Lamparina\",0);\n
+		INSERT INTO Perguntas VALUES(57,3,\" Em qual jogo o ganhador grita o nome do jogo em sinal de vitória?\");\n
+		INSERT INTO Alternativas VALUES(?, 57, \"Esconde-Esconde\",0);\n
+		INSERT INTO Alternativas VALUES(?, 57, \"Bingo\",1);\n
+		INSERT INTO Alternativas VALUES(?, 57, \"Banco Imobiliário\",0);\n
+		INSERT INTO Alternativas VALUES(?, 57, \"Xadrez\",0);\n
+		INSERT INTO Perguntas VALUES(58,3,\" Um analgésico é um agente para:\");\n
+		INSERT INTO Alternativas VALUES(?, 58, \"Tratamento Do Intestino\",0);\n
+		INSERT INTO Alternativas VALUES(?, 58, \"Alívio De Estresse\",0);\n
+		INSERT INTO Alternativas VALUES(?, 58, \"Alívio Da Dor\",1);\n
+		INSERT INTO Alternativas VALUES(?, 58, \"Tratamento Da Caspa\",0);\n
+		INSERT INTO Perguntas VALUES(59,3,\" Qual é a cidade do Batman?\");\n
+		INSERT INTO Alternativas VALUES(?, 59, \"Gotham City\",1);\n
+		INSERT INTO Alternativas VALUES(?, 59, \"Metrópolis\",0);\n
+		INSERT INTO Alternativas VALUES(?, 59, \"Pleasantville\",0);\n
+		INSERT INTO Alternativas VALUES(?, 59, \"Anytown\",0);\n
+		INSERT INTO Perguntas VALUES(60,3,\" De que é feito o pé-de-moleque?\");\n
+		INSERT INTO Alternativas VALUES(?, 60, \"Amendoim\",1);\n
+		INSERT INTO Alternativas VALUES(?, 60, \"Castanha\",0);\n
+		INSERT INTO Alternativas VALUES(?, 60, \"Alcaparra\",0);\n
+		INSERT INTO Alternativas VALUES(?, 60, \"Abacate\",0);\n
+		INSERT INTO Perguntas VALUES(61,4,\" O que Rapunzel jogava pela janela?\");\n
+		INSERT INTO Alternativas VALUES(?, 61, \"Perna\",0);\n
+		INSERT INTO Alternativas VALUES(?, 61, \"Braço\",0);\n
+		INSERT INTO Alternativas VALUES(?, 61, \"Família\",0);\n
+		INSERT INTO Alternativas VALUES(?, 61, \"Trança\",1);\n
+		INSERT INTO Perguntas VALUES(62,4,\" O que se joga na neve para ajudar a derretê-la?\");\n
+		INSERT INTO Alternativas VALUES(?, 62, \"Açúcar\",0);\n
+		INSERT INTO Alternativas VALUES(?, 62, \"Orégano\",0);\n
+		INSERT INTO Alternativas VALUES(?, 62, \"Sal\",1);\n
+		INSERT INTO Alternativas VALUES(?, 62, \"Pimenta\",0);\n
+		INSERT INTO Perguntas VALUES(63,4,\" Qual desses heróis de ficção usa uma máscara?\");\n
+		INSERT INTO Alternativas VALUES(?, 63, \"Robin Hood\",0);\n
+		INSERT INTO Alternativas VALUES(?, 63, \"Simbad\",0);\n
+		INSERT INTO Alternativas VALUES(?, 63, \"Indiana Jones\",0);\n
+		INSERT INTO Alternativas VALUES(?, 63, \"Zorro\",1);\n
+		INSERT INTO Perguntas VALUES(64,4,\" Quantos anos tem um milênio?\");\n
+		INSERT INTO Alternativas VALUES(?, 64, \"100\",0);\n
+		INSERT INTO Alternativas VALUES(?, 64, \"500\",0);\n
+		INSERT INTO Alternativas VALUES(?, 64, \"1000\",1);\n
+		INSERT INTO Alternativas VALUES(?, 64, \"10000\",0);\n
+		INSERT INTO Perguntas VALUES(65,4,\" Quanto tempo a Terra leva para completar uma órbita ao redor do sol?\");\n
+		INSERT INTO Alternativas VALUES(?, 65, \"Um Ano\",1);\n
+		INSERT INTO Alternativas VALUES(?, 65, \"Um Mês\",0);\n
+		INSERT INTO Alternativas VALUES(?, 65, \"Uma Semana\",0);\n
+		INSERT INTO Alternativas VALUES(?, 65, \"Um Século\",0);\n
+		INSERT INTO Perguntas VALUES(66,4,\" Onde a mamãe canguru carrega o filhote?\");\n
+		INSERT INTO Alternativas VALUES(?, 66, \"Na Orelha\",0);\n
+		INSERT INTO Alternativas VALUES(?, 66, \"Nas Costas\",0);\n
+		INSERT INTO Alternativas VALUES(?, 66, \"Na Boca\",0);\n
+		INSERT INTO Alternativas VALUES(?, 66, \"Na Bolsa\",1);\n
+		INSERT INTO Perguntas VALUES(67,4,\" Como é o nome da cabeleira que envolve a cabeça do leão?\");\n
+		INSERT INTO Alternativas VALUES(?, 67, \"Topete\",0);\n
+		INSERT INTO Alternativas VALUES(?, 67, \"Cacho\",0);\n
+		INSERT INTO Alternativas VALUES(?, 67, \"Juba\",1);\n
+		INSERT INTO Alternativas VALUES(?, 67, \"Peruca\",0);\n
+		INSERT INTO Perguntas VALUES(68,4,\" Um por todos e todos por um é o grito de qual destes grupos?\");\n
+		INSERT INTO Alternativas VALUES(?, 68, \"Extraterrestres\",0);\n
+		INSERT INTO Alternativas VALUES(?, 68, \"Família Robinson\",0);\n
+		INSERT INTO Alternativas VALUES(?, 68, \"Power Rangers\",0);\n
+		INSERT INTO Alternativas VALUES(?, 68, \"Três Mosqueteiros\",1);\n
+		INSERT INTO Perguntas VALUES(69,4,\" O que é a morsa?\");\n
+		INSERT INTO Alternativas VALUES(?, 69, \"Um Réptil\",0);\n
+		INSERT INTO Alternativas VALUES(?, 69, \"Um Mamífero\",1);\n
+		INSERT INTO Alternativas VALUES(?, 69, \"Um Peixe\",0);\n
+		INSERT INTO Alternativas VALUES(?, 69, \"Um Crustáceo\",0);\n
+		INSERT INTO Perguntas VALUES(70,4,\" Qual personagem de desenho animado é rico e pão-duro?\");\n
+		INSERT INTO Alternativas VALUES(?, 70, \"Tio Patinhas\",1);\n
+		INSERT INTO Alternativas VALUES(?, 70, \"Pateta\",0);\n
+		INSERT INTO Alternativas VALUES(?, 70, \"Mickey\",0);\n
+		INSERT INTO Alternativas VALUES(?, 70, \"Pato Donald\",0);\n
+		INSERT INTO Perguntas VALUES(71,4,\" O que é um croissant?\");\n
+		INSERT INTO Alternativas VALUES(?, 71, \"Licor\",0);\n
+		INSERT INTO Alternativas VALUES(?, 71, \"Doce\",0);\n
+		INSERT INTO Alternativas VALUES(?, 71, \"Tempero\",0);\n
+		INSERT INTO Alternativas VALUES(?, 71, \"Pão\",1);\n
+		INSERT INTO Perguntas VALUES(72,4,\" Qual exame é usado para comprovar a paternidade?\");\n
+		INSERT INTO Alternativas VALUES(?, 72, \"De Sangue\",0);\n
+		INSERT INTO Alternativas VALUES(?, 72, \"De Dna\",1);\n
+		INSERT INTO Alternativas VALUES(?, 72, \"De Urina\",0);\n
+		INSERT INTO Alternativas VALUES(?, 72, \"De Consciência\",0);\n
+		INSERT INTO Perguntas VALUES(73,4,\" Tarsila do Amaral era uma:\");\n
+		INSERT INTO Alternativas VALUES(?, 73, \"Dançarina\",0);\n
+		INSERT INTO Alternativas VALUES(?, 73, \"Atriz\",0);\n
+		INSERT INTO Alternativas VALUES(?, 73, \"Médica\",0);\n
+		INSERT INTO Alternativas VALUES(?, 73, \"Pintora\",1);\n
+		INSERT INTO Perguntas VALUES(74,4,\" Os bairros mais afastados do centro da cidade chamam-se:\");\n
+		INSERT INTO Alternativas VALUES(?, 74, \"Residenciais\",0);\n
+		INSERT INTO Alternativas VALUES(?, 74, \"Comerciais\",0);\n
+		INSERT INTO Alternativas VALUES(?, 74, \"Suburbanos\",1);\n
+		INSERT INTO Alternativas VALUES(?, 74, \"Industriais\",0);\n
+		INSERT INTO Perguntas VALUES(75,4,\" Qual destas palavras é sinônimo de equívoco?\");\n
+		INSERT INTO Alternativas VALUES(?, 75, \"Acerto\",0);\n
+		INSERT INTO Alternativas VALUES(?, 75, \"Equitação\",0);\n
+		INSERT INTO Alternativas VALUES(?, 75, \"Engano\",1);\n
+		INSERT INTO Alternativas VALUES(?, 75, \"Cavalo\",0);\n
+		INSERT INTO Perguntas VALUES(76,4,\" Qual destes itens não é encontrado em uma bicicleta comum?\");\n
+		INSERT INTO Alternativas VALUES(?, 76, \"Air Bag\",1);\n
+		INSERT INTO Alternativas VALUES(?, 76, \"Guidão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 76, \"Selim\",0);\n
+		INSERT INTO Alternativas VALUES(?, 76, \"Corrente\",0);\n
+		INSERT INTO Perguntas VALUES(77,4,\" Que nome se dá a cada parte do esqueleto?\");\n
+		INSERT INTO Alternativas VALUES(?, 77, \"Caveira\",0);\n
+		INSERT INTO Alternativas VALUES(?, 77, \"Osso\",1);\n
+		INSERT INTO Alternativas VALUES(?, 77, \"Arcada\",0);\n
+		INSERT INTO Alternativas VALUES(?, 77, \"Bacia\",0);\n
+		INSERT INTO Perguntas VALUES(78,4,\" Nas religiões afro-brasileiras, quem é o Deus da Guerra?\");\n
+		INSERT INTO Alternativas VALUES(?, 78, \"Tupã\",0);\n
+		INSERT INTO Alternativas VALUES(?, 78, \"Ogum\",1);\n
+		INSERT INTO Alternativas VALUES(?, 78, \"Senhor Do Bonfim\",0);\n
+		INSERT INTO Alternativas VALUES(?, 78, \"Zeus\",0);\n
+		INSERT INTO Perguntas VALUES(79,4,\" Com o que era acionado o motor dos antigos automóveis?\");\n
+		INSERT INTO Alternativas VALUES(?, 79, \"Chave De Fenda\",0);\n
+		INSERT INTO Alternativas VALUES(?, 79, \"Barbante\",0);\n
+		INSERT INTO Alternativas VALUES(?, 79, \"Parafuso\",0);\n
+		INSERT INTO Alternativas VALUES(?, 79, \"Manivela\",1);\n
+		INSERT INTO Perguntas VALUES(80,4,\" Qual presidente brasileiro renunciou em 1992?\");\n
+		INSERT INTO Alternativas VALUES(?, 80, \"Itamar Franco\",0);\n
+		INSERT INTO Alternativas VALUES(?, 80, \"Fernando Collor\",1);\n
+		INSERT INTO Alternativas VALUES(?, 80, \"José Sarney\",0);\n
+		INSERT INTO Alternativas VALUES(?, 80, \"Figueiredo\",0);\n
+		INSERT INTO Perguntas VALUES(81,5,\" O que é uma sucuri? \");\n
+		INSERT INTO Alternativas VALUES(?, 81, \"Cobra\",1);\n
+		INSERT INTO Alternativas VALUES(?, 81, \"Refrigerante\",0);\n
+		INSERT INTO Alternativas VALUES(?, 81, \"Tipo De Laranja\",0);\n
+		INSERT INTO Alternativas VALUES(?, 81, \"Vaso Indígena\",0);\n
+		INSERT INTO Perguntas VALUES(82,5,\" Qual destes é um personagem de Monteiro Lobato?\");\n
+		INSERT INTO Alternativas VALUES(?, 82, \"Mônica\",0);\n
+		INSERT INTO Alternativas VALUES(?, 82, \"Magali\",0);\n
+		INSERT INTO Alternativas VALUES(?, 82, \"Narizinho\",1);\n
+		INSERT INTO Alternativas VALUES(?, 82, \"Mulher Maravilha\",0);\n
+		INSERT INTO Perguntas VALUES(83,5,\" Qual é o material usado para fazer a borracha?\");\n
+		INSERT INTO Alternativas VALUES(?, 83, \"Durex\",0);\n
+		INSERT INTO Alternativas VALUES(?, 83, \"Látex\",1);\n
+		INSERT INTO Alternativas VALUES(?, 83, \"Pirex\",0);\n
+		INSERT INTO Alternativas VALUES(?, 83, \"Xérox\",0);\n
+		INSERT INTO Perguntas VALUES(84,5,\" Quantos atletas participam, por equipe, da prova 4 por 100?\");\n
+		INSERT INTO Alternativas VALUES(?, 84, \"Cem\",0);\n
+		INSERT INTO Alternativas VALUES(?, 84, \"Dez\",0);\n
+		INSERT INTO Alternativas VALUES(?, 84, \"Oito\",0);\n
+		INSERT INTO Alternativas VALUES(?, 84, \"Quatro\",1);\n
+		INSERT INTO Perguntas VALUES(85,5,\" Para que serve um dedal?\");\n
+		INSERT INTO Alternativas VALUES(?, 85, \"Arrumar Agulhas\",0);\n
+		INSERT INTO Alternativas VALUES(?, 85, \"Cortar Linhas\",0);\n
+		INSERT INTO Alternativas VALUES(?, 85, \"Proteger O Dedo\",1);\n
+		INSERT INTO Alternativas VALUES(?, 85, \"Curar Feridas\",0);\n
+		INSERT INTO Perguntas VALUES(86,5,\" O que se encontra no final do arco-íris?\");\n
+		INSERT INTO Alternativas VALUES(?, 86, \"Saco De Diamantes\",0);\n
+		INSERT INTO Alternativas VALUES(?, 86, \"Pote De Ouro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 86, \"Barra De Prata\",0);\n
+		INSERT INTO Alternativas VALUES(?, 86, \"Esmeraldas\",0);\n
+		INSERT INTO Perguntas VALUES(87,5,\" Em qual destes lugares pode-se encontrar um oásis?\");\n
+		INSERT INTO Alternativas VALUES(?, 87, \"No Rochedo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 87, \"Na Floresta Tropical\",0);\n
+		INSERT INTO Alternativas VALUES(?, 87, \"No Deserto\",1);\n
+		INSERT INTO Alternativas VALUES(?, 87, \"Na Savana\",0);\n
+		INSERT INTO Perguntas VALUES(88,5,\" Qual destas frutas é associada ao Natal?\");\n
+		INSERT INTO Alternativas VALUES(?, 88, \"Noz\",1);\n
+		INSERT INTO Alternativas VALUES(?, 88, \"Banana\",0);\n
+		INSERT INTO Alternativas VALUES(?, 88, \"Tangerina\",0);\n
+		INSERT INTO Alternativas VALUES(?, 88, \"Jabuticaba\",0);\n
+		INSERT INTO Perguntas VALUES(89,5,\" De que cor fica a lagosta quando adequadamente cozida?\");\n
+		INSERT INTO Alternativas VALUES(?, 89, \"Preta\",0);\n
+		INSERT INTO Alternativas VALUES(?, 89, \"Vermelha\",1);\n
+		INSERT INTO Alternativas VALUES(?, 89, \"Verde\",0);\n
+		INSERT INTO Alternativas VALUES(?, 89, \"Amarela\",0);\n
+		INSERT INTO Perguntas VALUES(90,5,\" Qual destas músicas foi composta por Adoniran Barbosa?\");\n
+		INSERT INTO Alternativas VALUES(?, 90, \"Trem Das Onze\",1);\n
+		INSERT INTO Alternativas VALUES(?, 90, \"Máscara Negra\",0);\n
+		INSERT INTO Alternativas VALUES(?, 90, \"Chiquita Bacana\",0);\n
+		INSERT INTO Alternativas VALUES(?, 90, \"Jardineira\",0);\n
+		INSERT INTO Perguntas VALUES(91,5,\" O que é labrador?\");\n
+		INSERT INTO Alternativas VALUES(?, 91, \"Raça De Gato\",0);\n
+		INSERT INTO Alternativas VALUES(?, 91, \"Raça De Gado\",0);\n
+		INSERT INTO Alternativas VALUES(?, 91, \"Raça De Cachorro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 91, \"Raça De Cavalo\",0);\n
+		INSERT INTO Perguntas VALUES(92,5,\" Um cleptomaníaco tem como principal característica:\");\n
+		INSERT INTO Alternativas VALUES(?, 92, \"Medo De Escuro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 92, \"Mania De Roubar\",1);\n
+		INSERT INTO Alternativas VALUES(?, 92, \"Medo De Altura\",0);\n
+		INSERT INTO Alternativas VALUES(?, 92, \"Mania De Perseguição\",0);\n
+		INSERT INTO Perguntas VALUES(93,5,\" Como se chama a avenida do sambódromo do Rio de Janeiro?\");\n
+		INSERT INTO Alternativas VALUES(?, 93, \"Marquês De Jacareí\",0);\n
+		INSERT INTO Alternativas VALUES(?, 93, \"Marquês De Sapucaí\",1);\n
+		INSERT INTO Alternativas VALUES(?, 93, \"Marquês De Sambei E Caí\",0);\n
+		INSERT INTO Alternativas VALUES(?, 93, \"Marquês De São Vicente\",0);\n
+		INSERT INTO Perguntas VALUES(94,5,\" Qual nome é dado à barriga da perna?\");\n
+		INSERT INTO Alternativas VALUES(?, 94, \"Agulha\",0);\n
+		INSERT INTO Alternativas VALUES(?, 94, \"Bíceps\",0);\n
+		INSERT INTO Alternativas VALUES(?, 94, \"Músculo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 94, \"Panturrilha\",1);\n
+		INSERT INTO Perguntas VALUES(95,5,\" Quem não tem domicílio fixo?\");\n
+		INSERT INTO Alternativas VALUES(?, 95, \"O Nômade\",1);\n
+		INSERT INTO Alternativas VALUES(?, 95, \"O Viajor\",0);\n
+		INSERT INTO Alternativas VALUES(?, 95, \"O Viajante\",0);\n
+		INSERT INTO Alternativas VALUES(?, 95, \"O Passeador\",0);\n
+		INSERT INTO Perguntas VALUES(96,5,\" Quantos espaços tem no Jogo da Velha?\");\n
+		INSERT INTO Alternativas VALUES(?, 96, \"Seis\",0);\n
+		INSERT INTO Alternativas VALUES(?, 96, \"Sete\",0);\n
+		INSERT INTO Alternativas VALUES(?, 96, \"Oito\",0);\n
+		INSERT INTO Alternativas VALUES(?, 96, \"Nove\",1);\n
+		INSERT INTO Perguntas VALUES(97,5,\" Como se chama a armação dos óculos?\");\n
+		INSERT INTO Alternativas VALUES(?, 97, \"Roda\",0);\n
+		INSERT INTO Alternativas VALUES(?, 97, \"Eixo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 97, \"Arco\",0);\n
+		INSERT INTO Alternativas VALUES(?, 97, \"Aro\",1);\n
+		INSERT INTO Perguntas VALUES(98,5,\" A pessoa que planeja e cria jardins e parques chama-se:\");\n
+		INSERT INTO Alternativas VALUES(?, 98, \"Florista\",0);\n
+		INSERT INTO Alternativas VALUES(?, 98, \"Paisagista\",1);\n
+		INSERT INTO Alternativas VALUES(?, 98, \"Floricultor\",0);\n
+		INSERT INTO Alternativas VALUES(?, 98, \"Artista\",0);\n
+		INSERT INTO Perguntas VALUES(99,5,\" Qual nome é dado à criança ainda não batizada?\");\n
+		INSERT INTO Alternativas VALUES(?, 99, \"Pagão\",1);\n
+		INSERT INTO Alternativas VALUES(?, 99, \"Anão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 99, \"Chorão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 99, \"Cristão\",0);\n
+		INSERT INTO Perguntas VALUES(100,5,\" Qual destes órgãos não faz parte do sistema digestivo?\");\n
+		INSERT INTO Alternativas VALUES(?, 100, \"Brônquios\",1);\n
+		INSERT INTO Alternativas VALUES(?, 100, \"Boca\",0);\n
+		INSERT INTO Alternativas VALUES(?, 100, \"Faringe\",0);\n
+		INSERT INTO Alternativas VALUES(?, 100, \"Intestino\",0);\n
+		INSERT INTO Perguntas VALUES(101,6,\" Qual é o único mamífero que pode voar?\");\n
+		INSERT INTO Alternativas VALUES(?, 101, \"Pato\",0);\n
+		INSERT INTO Alternativas VALUES(?, 101, \"Morcego\",1);\n
+		INSERT INTO Alternativas VALUES(?, 101, \"Andorinha\",0);\n
+		INSERT INTO Alternativas VALUES(?, 101, \"Urubu\",0);\n
+		INSERT INTO Perguntas VALUES(102,6,\" A que classe de animais o pingüim pertence?\");\n
+		INSERT INTO Alternativas VALUES(?, 102, \"Peixes\",0);\n
+		INSERT INTO Alternativas VALUES(?, 102, \"Mamíferos\",0);\n
+		INSERT INTO Alternativas VALUES(?, 102, \"Aves\",1);\n
+		INSERT INTO Alternativas VALUES(?, 102, \"Felinos\",0);\n
+		INSERT INTO Perguntas VALUES(103,6,\" Como se chamava a atriz de cinema que se tornou princesa de Mônaco?\");\n
+		INSERT INTO Alternativas VALUES(?, 103, \"Grace Kelly\",1);\n
+		INSERT INTO Alternativas VALUES(?, 103, \"Greta Garbo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 103, \"Catherine Deneuve\",0);\n
+		INSERT INTO Alternativas VALUES(?, 103, \"Brigitte Bardot\",0);\n
+		INSERT INTO Perguntas VALUES(104,6,\" Como os cavalos dormem?\");\n
+		INSERT INTO Alternativas VALUES(?, 104, \"Em Pé\",1);\n
+		INSERT INTO Alternativas VALUES(?, 104, \"Deitados\",0);\n
+		INSERT INTO Alternativas VALUES(?, 104, \"De Lado\",0);\n
+		INSERT INTO Alternativas VALUES(?, 104, \"De Ponta-Cabeça\",0);\n
+		INSERT INTO Perguntas VALUES(105,6,\" Qual a capital do Canadá?\");\n
+		INSERT INTO Alternativas VALUES(?, 105, \"Montreal\",0);\n
+		INSERT INTO Alternativas VALUES(?, 105, \"Ottawa\",1);\n
+		INSERT INTO Alternativas VALUES(?, 105, \"Vancouver\",0);\n
+		INSERT INTO Alternativas VALUES(?, 105, \"Washington\",0);\n
+		INSERT INTO Perguntas VALUES(106,6,\" Qual destes instrumentos musicais é de sopro?\");\n
+		INSERT INTO Alternativas VALUES(?, 106, \"Violino\",0);\n
+		INSERT INTO Alternativas VALUES(?, 106, \"Saxofone\",1);\n
+		INSERT INTO Alternativas VALUES(?, 106, \"Piano\",0);\n
+		INSERT INTO Alternativas VALUES(?, 106, \"Violão\",0);\n
+		INSERT INTO Perguntas VALUES(107,6,\" Qual foi o último presidente militar do Brasil?\");\n
+		INSERT INTO Alternativas VALUES(?, 107, \"Costa E Silva\",0);\n
+		INSERT INTO Alternativas VALUES(?, 107, \"Geisel\",0);\n
+		INSERT INTO Alternativas VALUES(?, 107, \"Figueiredo\",1);\n
+		INSERT INTO Alternativas VALUES(?, 107, \"Médici\",0);\n
+		INSERT INTO Perguntas VALUES(108,6,\" Nos desenhos de Walt Disney, que animal é o Mickey?\");\n
+		INSERT INTO Alternativas VALUES(?, 108, \"Coelho\",0);\n
+		INSERT INTO Alternativas VALUES(?, 108, \"Camundongo\",1);\n
+		INSERT INTO Alternativas VALUES(?, 108, \"Esquilo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 108, \"Gambá\",0);\n
+		INSERT INTO Perguntas VALUES(109,6,\" Quem é o ator principal do filme Conan, o Bárbaro?\");\n
+		INSERT INTO Alternativas VALUES(?, 109, \"Tom Cruise\",0);\n
+		INSERT INTO Alternativas VALUES(?, 109, \"Leonardo Di Caprio\",0);\n
+		INSERT INTO Alternativas VALUES(?, 109, \"Arnold Schwarzenegger\",1);\n
+		INSERT INTO Alternativas VALUES(?, 109, \"Bruce Lee\",0);\n
+		INSERT INTO Perguntas VALUES(110,6,\" Qual foi o filme brasileiro indicado para o Oscar em 1999?\");\n
+		INSERT INTO Alternativas VALUES(?, 110, \"O Quatrilho\",0);\n
+		INSERT INTO Alternativas VALUES(?, 110, \"A Vida É Bela\",0);\n
+		INSERT INTO Alternativas VALUES(?, 110, \"Auto Da Compadecida\",0);\n
+		INSERT INTO Alternativas VALUES(?, 110, \"Central Do Brasil\",1);\n
+		INSERT INTO Perguntas VALUES(111,6,\" O momento em que o sol fica situado exatamente sobre o Equador chama-se:\");\n
+		INSERT INTO Alternativas VALUES(?, 111, \"Equinócio\",1);\n
+		INSERT INTO Alternativas VALUES(?, 111, \"Solstício\",0);\n
+		INSERT INTO Alternativas VALUES(?, 111, \"Solsticial\",0);\n
+		INSERT INTO Alternativas VALUES(?, 111, \"Solitude\",0);\n
+		INSERT INTO Perguntas VALUES(112,6,\" Quem foi o provável assassino de John Kennedy?\");\n
+		INSERT INTO Alternativas VALUES(?, 112, \"Alexander Burr\",0);\n
+		INSERT INTO Alternativas VALUES(?, 112, \"Lee Harvey Oswald\",1);\n
+		INSERT INTO Alternativas VALUES(?, 112, \"Billy The Kid\",0);\n
+		INSERT INTO Alternativas VALUES(?, 112, \"Eliott Ness\",0);\n
+		INSERT INTO Perguntas VALUES(113,6,\" Em que festa se comemora a Ressurreição de Cristo?\");\n
+		INSERT INTO Alternativas VALUES(?, 113, \"Páscoa\",1);\n
+		INSERT INTO Alternativas VALUES(?, 113, \"Natal\",0);\n
+		INSERT INTO Alternativas VALUES(?, 113, \"Ano-Novo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 113, \"Domingo De Ramos\",0);\n
+		INSERT INTO Perguntas VALUES(114,6,\" Como se chama o estado em que o paciente perde a consciência?\");\n
+		INSERT INTO Alternativas VALUES(?, 114, \"Alérgico\",0);\n
+		INSERT INTO Alternativas VALUES(?, 114, \"Lúcido\",0);\n
+		INSERT INTO Alternativas VALUES(?, 114, \"Febril\",0);\n
+		INSERT INTO Alternativas VALUES(?, 114, \"De Coma\",1);\n
+		INSERT INTO Perguntas VALUES(115,6,\" Quem supostamente teria cavalgado nua na cidade de Coventry?\");\n
+		INSERT INTO Alternativas VALUES(?, 115, \"Lady Macbeth\",0);\n
+		INSERT INTO Alternativas VALUES(?, 115, \"Lady Diana\",0);\n
+		INSERT INTO Alternativas VALUES(?, 115, \"Lady Godiva\",1);\n
+		INSERT INTO Alternativas VALUES(?, 115, \"Lady Hawk\",0);\n
+		INSERT INTO Perguntas VALUES(116,6,\" Qual dançarino foi parceiro de Ginger Rogers no cinema?\");\n
+		INSERT INTO Alternativas VALUES(?, 116, \"Mikhail Barishnikov\",0);\n
+		INSERT INTO Alternativas VALUES(?, 116, \"Fred Astaire\",1);\n
+		INSERT INTO Alternativas VALUES(?, 116, \"Frank Sinatra\",0);\n
+		INSERT INTO Alternativas VALUES(?, 116, \"Gene Kelly\",0);\n
+		INSERT INTO Perguntas VALUES(117,6,\" Quem assumiu a Presidência da República com a morte de Tancredo Neves?\");\n
+		INSERT INTO Alternativas VALUES(?, 117, \"Fernando Collor\",0);\n
+		INSERT INTO Alternativas VALUES(?, 117, \"José Sarney\",1);\n
+		INSERT INTO Alternativas VALUES(?, 117, \"Fernando Henrique Cardoso\",0);\n
+		INSERT INTO Alternativas VALUES(?, 117, \"Lula\",0);\n
+		INSERT INTO Perguntas VALUES(118,6,\" Tuiuiú é uma espécie de:\");\n
+		INSERT INTO Alternativas VALUES(?, 118, \"Pássaro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 118, \"Comida\",0);\n
+		INSERT INTO Alternativas VALUES(?, 118, \"Carro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 118, \"Roupa\",0);\n
+		INSERT INTO Perguntas VALUES(119,6,\" Qual destes nomes pertenceu a um navio de Cristóvão Colombo?\");\n
+		INSERT INTO Alternativas VALUES(?, 119, \"El Savador\",0);\n
+		INSERT INTO Alternativas VALUES(?, 119, \"Redentor\",0);\n
+		INSERT INTO Alternativas VALUES(?, 119, \"Santa Maria\",1);\n
+		INSERT INTO Alternativas VALUES(?, 119, \"Titanic\",0);\n
+		INSERT INTO Perguntas VALUES(120,6,\" O sol pode ser classificado de:\");\n
+		INSERT INTO Alternativas VALUES(?, 120, \"Meteoro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 120, \"Cometa\",0);\n
+		INSERT INTO Alternativas VALUES(?, 120, \"Estrela\",1);\n
+		INSERT INTO Alternativas VALUES(?, 120, \"Planeta\",0);\n
+		INSERT INTO Perguntas VALUES(121,7,\" Qual desses episódios influenciou a Inconfidência Mineira?\");\n
+		INSERT INTO Alternativas VALUES(?, 121, \"Primeira Guerra Mundial\",0);\n
+		INSERT INTO Alternativas VALUES(?, 121, \"Revolução Francesa\",1);\n
+		INSERT INTO Alternativas VALUES(?, 121, \"Revolução Russa\",0);\n
+		INSERT INTO Alternativas VALUES(?, 121, \"Segunda Guerra Mundial\",0);\n
+		INSERT INTO Perguntas VALUES(122,7,\" Que produto teve grande influência sobre o desenvolvimento de São Paulo, no século XIX?\");\n
+		INSERT INTO Alternativas VALUES(?, 122, \"Café\",1);\n
+		INSERT INTO Alternativas VALUES(?, 122, \"Cana-De-Açúcar\",0);\n
+		INSERT INTO Alternativas VALUES(?, 122, \"Ouro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 122, \"Pau-Brasil\",0);\n
+		INSERT INTO Perguntas VALUES(123,7,\" Quem disse a frase Eureca, eureca?\");\n
+		INSERT INTO Alternativas VALUES(?, 123, \"Aristóteles\",0);\n
+		INSERT INTO Alternativas VALUES(?, 123, \"Galileu Galilei\",0);\n
+		INSERT INTO Alternativas VALUES(?, 123, \"Alexandre, O Grande\",0);\n
+		INSERT INTO Alternativas VALUES(?, 123, \"Arquimedes\",1);\n
+		INSERT INTO Perguntas VALUES(124,7,\" Quem inventou a máquina a vapor?\");\n
+		INSERT INTO Alternativas VALUES(?, 124, \"James Dean\",0);\n
+		INSERT INTO Alternativas VALUES(?, 124, \"James Watt\",1);\n
+		INSERT INTO Alternativas VALUES(?, 124, \"James Taylor\",0);\n
+		INSERT INTO Alternativas VALUES(?, 124, \"James Wolfe\",0);\n
+		INSERT INTO Perguntas VALUES(125,7,\" Essencialmente, qual é o clima predominante no Brasil?\");\n
+		INSERT INTO Alternativas VALUES(?, 125, \"Árido\",0);\n
+		INSERT INTO Alternativas VALUES(?, 125, \"Subtropical\",0);\n
+		INSERT INTO Alternativas VALUES(?, 125, \"Tropical\",1);\n
+		INSERT INTO Alternativas VALUES(?, 125, \"Equatorial\",0);\n
+		INSERT INTO Perguntas VALUES(126,7,\" Para que máquina Elicha Graves Otis inventou um sistema de segurança?\");\n
+		INSERT INTO Alternativas VALUES(?, 126, \"Ônibus\",0);\n
+		INSERT INTO Alternativas VALUES(?, 126, \"Trem\",0);\n
+		INSERT INTO Alternativas VALUES(?, 126, \"Elevador\",1);\n
+		INSERT INTO Alternativas VALUES(?, 126, \"Táxi\",0);\n
+		INSERT INTO Perguntas VALUES(127,7,\" Qual é o especialista que cuida dos pés?\");\n
+		INSERT INTO Alternativas VALUES(?, 127, \"Cardiologista\",0);\n
+		INSERT INTO Alternativas VALUES(?, 127, \"Pedicuro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 127, \"Dentista\",0);\n
+		INSERT INTO Alternativas VALUES(?, 127, \"Psicólogo\",0);\n
+		INSERT INTO Perguntas VALUES(128,7,\" O Estado da Bahia fica em que região do Brasil?\");\n
+		INSERT INTO Alternativas VALUES(?, 128, \"Sudeste\",0);\n
+		INSERT INTO Alternativas VALUES(?, 128, \"Norte\",0);\n
+		INSERT INTO Alternativas VALUES(?, 128, \"Sul\",0);\n
+		INSERT INTO Alternativas VALUES(?, 128, \"Nordeste\",1);\n
+		INSERT INTO Perguntas VALUES(129,7,\" Que projeto foi criado em 1967 para alfabetizar adultos e adolescentes brasileiros?\");\n
+		INSERT INTO Alternativas VALUES(?, 129, \"Sobral\",0);\n
+		INSERT INTO Alternativas VALUES(?, 129, \"Mobral\",1);\n
+		INSERT INTO Alternativas VALUES(?, 129, \"Sudene\",0);\n
+		INSERT INTO Alternativas VALUES(?, 129, \"Mistral\",0);\n
+		INSERT INTO Perguntas VALUES(130,7,\" Qual é o nome do clássico do cinema em que Humphrey Bogart e Ingrid Bergman atuaram?\");\n
+		INSERT INTO Alternativas VALUES(?, 130, \"Casablanca\",1);\n
+		INSERT INTO Alternativas VALUES(?, 130, \"Eterno Conflito\",0);\n
+		INSERT INTO Alternativas VALUES(?, 130, \"Casanova\",0);\n
+		INSERT INTO Alternativas VALUES(?, 130, \"Os Pássaros\",0);\n
+		INSERT INTO Perguntas VALUES(131,7,\" Em que ano o Brasil sediou a Copa do Mundo de Futebol?\");\n
+		INSERT INTO Alternativas VALUES(?, 131, \"1930\",0);\n
+		INSERT INTO Alternativas VALUES(?, 131, \"1954\",0);\n
+		INSERT INTO Alternativas VALUES(?, 131, \"1950\",1);\n
+		INSERT INTO Alternativas VALUES(?, 131, \"1974\",0);\n
+		INSERT INTO Perguntas VALUES(132,7,\" O brasileiro Oswaldo Cruz foi um?\");\n
+		INSERT INTO Alternativas VALUES(?, 132, \"Médico\",1);\n
+		INSERT INTO Alternativas VALUES(?, 132, \"Advogado\",0);\n
+		INSERT INTO Alternativas VALUES(?, 132, \"Padre\",0);\n
+		INSERT INTO Alternativas VALUES(?, 132, \"Lutador\",0);\n
+		INSERT INTO Perguntas VALUES(133,7,\" De qual país Juan Perón foi presidente?\");\n
+		INSERT INTO Alternativas VALUES(?, 133, \"Brasil\",0);\n
+		INSERT INTO Alternativas VALUES(?, 133, \"Portugal\",0);\n
+		INSERT INTO Alternativas VALUES(?, 133, \"Inglaterra\",0);\n
+		INSERT INTO Alternativas VALUES(?, 133, \"Argentina\",1);\n
+		INSERT INTO Perguntas VALUES(134,7,\" Qual profissional cuida da saúde dos animais?\");\n
+		INSERT INTO Alternativas VALUES(?, 134, \"Dentista\",0);\n
+		INSERT INTO Alternativas VALUES(?, 134, \"Veterinário\",1);\n
+		INSERT INTO Alternativas VALUES(?, 134, \"Pediatra\",0);\n
+		INSERT INTO Alternativas VALUES(?, 134, \"Ortopedista\",0);\n
+		INSERT INTO Perguntas VALUES(135,7,\" Literatura de cordel é um tipo de literatura:\");\n
+		INSERT INTO Alternativas VALUES(?, 135, \"Clássica\",0);\n
+		INSERT INTO Alternativas VALUES(?, 135, \"Técnica\",0);\n
+		INSERT INTO Alternativas VALUES(?, 135, \"Infantil\",0);\n
+		INSERT INTO Alternativas VALUES(?, 135, \"Popular\",1);\n
+		INSERT INTO Perguntas VALUES(136,7,\" Que bandeirante era conhecido como o Caçador de Esmeraldas?\");\n
+		INSERT INTO Alternativas VALUES(?, 136, \"Raposo Tavares\",0);\n
+		INSERT INTO Alternativas VALUES(?, 136, \"Fernão Dias Pais\",1);\n
+		INSERT INTO Alternativas VALUES(?, 136, \"Bartolomeu Bueno Da Silva\",0);\n
+		INSERT INTO Alternativas VALUES(?, 136, \"Borba Gato\",0);\n
+		INSERT INTO Perguntas VALUES(137,7,\" Sarah Ferguson foi casada com que príncipe?\");\n
+		INSERT INTO Alternativas VALUES(?, 137, \"Encantado\",0);\n
+		INSERT INTO Alternativas VALUES(?, 137, \"Andrew\",1);\n
+		INSERT INTO Alternativas VALUES(?, 137, \"Albert\",0);\n
+		INSERT INTO Alternativas VALUES(?, 137, \"Charles\",0);\n
+		INSERT INTO Perguntas VALUES(138,7,\" A região situada entre o Equador e os Trópicos é chamada de:\");\n
+		INSERT INTO Alternativas VALUES(?, 138, \"Temperada\",0);\n
+		INSERT INTO Alternativas VALUES(?, 138, \"Tropical\",1);\n
+		INSERT INTO Alternativas VALUES(?, 138, \"Polar\",0);\n
+		INSERT INTO Alternativas VALUES(?, 138, \"Fria\",0);\n
+		INSERT INTO Perguntas VALUES(139,7,\" Lacustre é um transporte:\");\n
+		INSERT INTO Alternativas VALUES(?, 139, \"Aéreo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 139, \"Aquático\",1);\n
+		INSERT INTO Alternativas VALUES(?, 139, \"Terrestre\",0);\n
+		INSERT INTO Alternativas VALUES(?, 139, \"Ferroviário\",0);\n
+		INSERT INTO Perguntas VALUES(140,7,\" Qual destas línguas não é oficial na Suíça?\");\n
+		INSERT INTO Alternativas VALUES(?, 140, \"Francês\",0);\n
+		INSERT INTO Alternativas VALUES(?, 140, \"Alemão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 140, \"Espanhol\",1);\n
+		INSERT INTO Alternativas VALUES(?, 140, \"Italiano\",0);\n
+		INSERT INTO Perguntas VALUES(141,8,\" O coração é:\");\n
+		INSERT INTO Alternativas VALUES(?, 141, \"Uma Fibra\",0);\n
+		INSERT INTO Alternativas VALUES(?, 141, \"Uma Mucosa\",0);\n
+		INSERT INTO Alternativas VALUES(?, 141, \"Uma Víscera\",0);\n
+		INSERT INTO Alternativas VALUES(?, 141, \"Um Músculo\",1);\n
+		INSERT INTO Perguntas VALUES(142,8,\" Onde nasceu João Gilberto, compositor da Bossa Nova?\");\n
+		INSERT INTO Alternativas VALUES(?, 142, \"No Rio De Janeiro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 142, \"Na Bahia\",1);\n
+		INSERT INTO Alternativas VALUES(?, 142, \"Em São Paulo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 142, \"No Piauí\",0);\n
+		INSERT INTO Perguntas VALUES(143,8,\" Depois da Amazônica, qual é a maior bacia hidrográfica das Américas?\");\n
+		INSERT INTO Alternativas VALUES(?, 143, \"Mackenzie\",0);\n
+		INSERT INTO Alternativas VALUES(?, 143, \"Mississípi\",0);\n
+		INSERT INTO Alternativas VALUES(?, 143, \"Orinoco\",0);\n
+		INSERT INTO Alternativas VALUES(?, 143, \"Paraná\",1);\n
+		INSERT INTO Perguntas VALUES(144,8,\" Que bebida traz uma larva dentro da garrafa?\");\n
+		INSERT INTO Alternativas VALUES(?, 144, \"Vodca\",0);\n
+		INSERT INTO Alternativas VALUES(?, 144, \"Mezcal\",1);\n
+		INSERT INTO Alternativas VALUES(?, 144, \"Rum\",0);\n
+		INSERT INTO Alternativas VALUES(?, 144, \"Saquê\",0);\n
+		INSERT INTO Perguntas VALUES(145,8,\" Qual cobra é utilizada pelos encantadores de serpente na Índia?\");\n
+		INSERT INTO Alternativas VALUES(?, 145, \"Cascavel\",0);\n
+		INSERT INTO Alternativas VALUES(?, 145, \"Naja\",1);\n
+		INSERT INTO Alternativas VALUES(?, 145, \"Anaconda\",0);\n
+		INSERT INTO Alternativas VALUES(?, 145, \"Coral\",0);\n
+		INSERT INTO Perguntas VALUES(146,8,\" Em qual cidade estão localizadas as sedes da Coca-cola e do canal CNN?\");\n
+		INSERT INTO Alternativas VALUES(?, 146, \"Los Angeles\",0);\n
+		INSERT INTO Alternativas VALUES(?, 146, \"Nova York\",0);\n
+		INSERT INTO Alternativas VALUES(?, 146, \"Atlanta\",1);\n
+		INSERT INTO Alternativas VALUES(?, 146, \"Boston\",0);\n
+		INSERT INTO Perguntas VALUES(147,8,\" Em que continente se encontra o Egito?\");\n
+		INSERT INTO Alternativas VALUES(?, 147, \"Asiático\",0);\n
+		INSERT INTO Alternativas VALUES(?, 147, \"Americano\",0);\n
+		INSERT INTO Alternativas VALUES(?, 147, \"Africano\",1);\n
+		INSERT INTO Alternativas VALUES(?, 147, \"Europeu\",0);\n
+		INSERT INTO Perguntas VALUES(148,8,\" Segundo a lenda popular, qual santo mora na Lua?\");\n
+		INSERT INTO Alternativas VALUES(?, 148, \"São Sebastião\",0);\n
+		INSERT INTO Alternativas VALUES(?, 148, \"São Paulo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 148, \"São Jorge\",1);\n
+		INSERT INTO Alternativas VALUES(?, 148, \"São José\",0);\n
+		INSERT INTO Perguntas VALUES(149,8,\" Rita Lee era integrante de qual grupo musical?\");\n
+		INSERT INTO Alternativas VALUES(?, 149, \"Mutantes\",1);\n
+		INSERT INTO Alternativas VALUES(?, 149, \"A Cor Do Som\",0);\n
+		INSERT INTO Alternativas VALUES(?, 149, \"Tropicália\",0);\n
+		INSERT INTO Alternativas VALUES(?, 149, \"Boca Livre\",0);\n
+		INSERT INTO Perguntas VALUES(150,8,\" Quem foi o primeiro governador-geral do Brasil?\");\n
+		INSERT INTO Alternativas VALUES(?, 150, \"José Bonifácio\",0);\n
+		INSERT INTO Alternativas VALUES(?, 150, \"Duarte Da Costa\",0);\n
+		INSERT INTO Alternativas VALUES(?, 150, \"Tomé De Souza\",1);\n
+		INSERT INTO Alternativas VALUES(?, 150, \"Mem De Sá\",0);\n
+		INSERT INTO Perguntas VALUES(151,8,\" Qual o nome da residência oficial do Presidente da República?\");\n
+		INSERT INTO Alternativas VALUES(?, 151, \"Palácio Do Catete\",0);\n
+		INSERT INTO Alternativas VALUES(?, 151, \"Casa Da Dinda\",0);\n
+		INSERT INTO Alternativas VALUES(?, 151, \"Palácio Da Alvorada\",1);\n
+		INSERT INTO Alternativas VALUES(?, 151, \"Palácio Do Governo\",0);\n
+		INSERT INTO Perguntas VALUES(152,8,\" Quem foi o famoso vocalista do grupo musical inglês Queen?\");\n
+		INSERT INTO Alternativas VALUES(?, 152, \"Elton John\",0);\n
+		INSERT INTO Alternativas VALUES(?, 152, \"John Lennon\",0);\n
+		INSERT INTO Alternativas VALUES(?, 152, \"Freddie Mercury\",1);\n
+		INSERT INTO Alternativas VALUES(?, 152, \"Mick Jagger\",0);\n
+		INSERT INTO Perguntas VALUES(153,8,\" A que santo se referia o filme Irmão Sol, Irmã Lua?\");\n
+		INSERT INTO Alternativas VALUES(?, 153, \"São Cristóvão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 153, \"São Francisco De Assis\",1);\n
+		INSERT INTO Alternativas VALUES(?, 153, \"Santo Agostinho\",0);\n
+		INSERT INTO Alternativas VALUES(?, 153, \"São Paulo\",0);\n
+		INSERT INTO Perguntas VALUES(154,8,\" Que fase da lua vem após a minguante?\");\n
+		INSERT INTO Alternativas VALUES(?, 154, \"Lua Cheia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 154, \"Lua-De-Mel\",0);\n
+		INSERT INTO Alternativas VALUES(?, 154, \"Lua Nova\",1);\n
+		INSERT INTO Alternativas VALUES(?, 154, \"Lua Crescente\",0);\n
+		INSERT INTO Perguntas VALUES(155,8,\" Qual o nome da residência oficial do presidente dos EUA?\");\n
+		INSERT INTO Alternativas VALUES(?, 155, \"Casa Rosada\",0);\n
+		INSERT INTO Alternativas VALUES(?, 155, \"Capitólio\",0);\n
+		INSERT INTO Alternativas VALUES(?, 155, \"Palácio Americano\",0);\n
+		INSERT INTO Alternativas VALUES(?, 155, \"Casa Branca\",1);\n
+		INSERT INTO Perguntas VALUES(156,8,\" Cleópatra morreu de que forma?\");\n
+		INSERT INTO Alternativas VALUES(?, 156, \"Do Coração\",0);\n
+		INSERT INTO Alternativas VALUES(?, 156, \"De Velhice\",0);\n
+		INSERT INTO Alternativas VALUES(?, 156, \"Assassinada\",0);\n
+		INSERT INTO Alternativas VALUES(?, 156, \"Mordida Por Uma Serpente\",1);\n
+		INSERT INTO Perguntas VALUES(157,8,\" Gameta é:\");\n
+		INSERT INTO Alternativas VALUES(?, 157, \"Uma Companhia De Ônibus\",0);\n
+		INSERT INTO Alternativas VALUES(?, 157, \"Uma Letra Do Alfabeto Grego\",0);\n
+		INSERT INTO Alternativas VALUES(?, 157, \"Uma Célula Sexuada\",1);\n
+		INSERT INTO Alternativas VALUES(?, 157, \"Uma Rede De Pesca\",0);\n
+		INSERT INTO Perguntas VALUES(158,8,\" Em qual Estado se localiza Brasília?\");\n
+		INSERT INTO Alternativas VALUES(?, 158, \"Mato Grosso\",0);\n
+		INSERT INTO Alternativas VALUES(?, 158, \"Mato Grosso Do Sul\",0);\n
+		INSERT INTO Alternativas VALUES(?, 158, \"Goiás\",1);\n
+		INSERT INTO Alternativas VALUES(?, 158, \"Amapá\",0);\n
+		INSERT INTO Perguntas VALUES(159,8,\" Onde se passa o drama Romeu e Julieta de Shakespeare?\");\n
+		INSERT INTO Alternativas VALUES(?, 159, \"Veneza\",0);\n
+		INSERT INTO Alternativas VALUES(?, 159, \"Florença\",0);\n
+		INSERT INTO Alternativas VALUES(?, 159, \"Verona\",1);\n
+		INSERT INTO Alternativas VALUES(?, 159, \"Nápoles\",0);\n
+		INSERT INTO Perguntas VALUES(160,8,\" O pombo:\");\n
+		INSERT INTO Alternativas VALUES(?, 160, \"Pia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 160, \"Grasna\",0);\n
+		INSERT INTO Alternativas VALUES(?, 160, \"Arrulha\",1);\n
+		INSERT INTO Alternativas VALUES(?, 160, \"Assobia\",0);\n
+		INSERT INTO Perguntas VALUES(161,9,\" A cidade de Roquefort na França é famosa pela produção de:\");\n
+		INSERT INTO Alternativas VALUES(?, 161, \"Vinho\",0);\n
+		INSERT INTO Alternativas VALUES(?, 161, \"Queijo\",1);\n
+		INSERT INTO Alternativas VALUES(?, 161, \"Pão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 161, \"Champanhe\",0);\n
+		INSERT INTO Perguntas VALUES(162,9,\" Qual o primeiro nome do líder da Revolução de Canudos?\");\n
+		INSERT INTO Alternativas VALUES(?, 162, \"Antônio\",1);\n
+		INSERT INTO Alternativas VALUES(?, 162, \"Pedro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 162, \"João\",0);\n
+		INSERT INTO Alternativas VALUES(?, 162, \"Rafael\",0);\n
+		INSERT INTO Perguntas VALUES(163,9,\" Qual a ciência que estuda a vida dos seres vivos?\");\n
+		INSERT INTO Alternativas VALUES(?, 163, \"Zoologia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 163, \"Biologia\",1);\n
+		INSERT INTO Alternativas VALUES(?, 163, \"Oncologia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 163, \"Geologia\",0);\n
+		INSERT INTO Perguntas VALUES(164,9,\" Como é chamada a prática que cessa a vida de forma indolor?\");\n
+		INSERT INTO Alternativas VALUES(?, 164, \"Suicídio\",0);\n
+		INSERT INTO Alternativas VALUES(?, 164, \"Eutanásia\",1);\n
+		INSERT INTO Alternativas VALUES(?, 164, \"Acidente\",0);\n
+		INSERT INTO Alternativas VALUES(?, 164, \"Parada Cardíaca\",0);\n
+		INSERT INTO Perguntas VALUES(165,9,\" Qual doença é provocada pela alta quantidade de açúcar no sangue?\");\n
+		INSERT INTO Alternativas VALUES(?, 165, \"Sarampo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 165, \"Diabetes\",1);\n
+		INSERT INTO Alternativas VALUES(?, 165, \"Catapora\",0);\n
+		INSERT INTO Alternativas VALUES(?, 165, \"Reumatismo\",0);\n
+		INSERT INTO Perguntas VALUES(166,9,\" Nos pontos cardeais qual o significado da sigla NE?\");\n
+		INSERT INTO Alternativas VALUES(?, 166, \"Nordeste\",1);\n
+		INSERT INTO Alternativas VALUES(?, 166, \"Sudeste\",0);\n
+		INSERT INTO Alternativas VALUES(?, 166, \"Noroeste\",0);\n
+		INSERT INTO Alternativas VALUES(?, 166, \"Sudoeste\",0);\n
+		INSERT INTO Perguntas VALUES(167,9,\" Potiguar é aquele que nasce:\");\n
+		INSERT INTO Alternativas VALUES(?, 167, \"No Piauí\",0);\n
+		INSERT INTO Alternativas VALUES(?, 167, \"No Espírito Santo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 167, \"No Rio Grande Do Norte\",1);\n
+		INSERT INTO Alternativas VALUES(?, 167, \"No Tocantins\",0);\n
+		INSERT INTO Perguntas VALUES(168,9,\" O que é zarabatana?\");\n
+		INSERT INTO Alternativas VALUES(?, 168, \"Comida\",0);\n
+		INSERT INTO Alternativas VALUES(?, 168, \"Arma Indígena\",1);\n
+		INSERT INTO Alternativas VALUES(?, 168, \"Bebida\",0);\n
+		INSERT INTO Alternativas VALUES(?, 168, \"Animal\",0);\n
+		INSERT INTO Perguntas VALUES(169,9,\" Onde vivem os anfíbios?\");\n
+		INSERT INTO Alternativas VALUES(?, 169, \"Na Terra\",0);\n
+		INSERT INTO Alternativas VALUES(?, 169, \"Na Água\",0);\n
+		INSERT INTO Alternativas VALUES(?, 169, \"No Mar\",0);\n
+		INSERT INTO Alternativas VALUES(?, 169, \"Na Água E Na Terra\",1);\n
+		INSERT INTO Perguntas VALUES(170,9,\" Qual seleção ganhou a copa do mundo de futebol em 1998?\");\n
+		INSERT INTO Alternativas VALUES(?, 170, \"Itália\",0);\n
+		INSERT INTO Alternativas VALUES(?, 170, \"Argentina\",0);\n
+		INSERT INTO Alternativas VALUES(?, 170, \"França\",1);\n
+		INSERT INTO Alternativas VALUES(?, 170, \"Inglaterra\",0);\n
+		INSERT INTO Perguntas VALUES(171,9,\" Em que país nasceu Adolf Hitler?\");\n
+		INSERT INTO Alternativas VALUES(?, 171, \"Alemanha\",0);\n
+		INSERT INTO Alternativas VALUES(?, 171, \"Áustria\",1);\n
+		INSERT INTO Alternativas VALUES(?, 171, \"Holanda\",0);\n
+		INSERT INTO Alternativas VALUES(?, 171, \"Austrália\",0);\n
+		INSERT INTO Perguntas VALUES(172,9,\" Qual foi o primeiro ponto avistado no Brasil pela frota de Cabral?\");\n
+		INSERT INTO Alternativas VALUES(?, 172, \"Monte Das Oliveiras\",0);\n
+		INSERT INTO Alternativas VALUES(?, 172, \"Morro Da Bahia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 172, \"Monte Pascoal\",1);\n
+		INSERT INTO Alternativas VALUES(?, 172, \"Morro De São Paulo\",0);\n
+		INSERT INTO Perguntas VALUES(173,9,\" Como se chama o pigmento que dá cor à pele humana?\");\n
+		INSERT INTO Alternativas VALUES(?, 173, \"Coralina\",0);\n
+		INSERT INTO Alternativas VALUES(?, 173, \"Pigmalina\",0);\n
+		INSERT INTO Alternativas VALUES(?, 173, \"Melanina\",1);\n
+		INSERT INTO Alternativas VALUES(?, 173, \"Sualina\",0);\n
+		INSERT INTO Perguntas VALUES(174,9,\" Qual país da Península Ibérica faz fronteira com Portugal?\");\n
+		INSERT INTO Alternativas VALUES(?, 174, \"França\",0);\n
+		INSERT INTO Alternativas VALUES(?, 174, \"Itália\",0);\n
+		INSERT INTO Alternativas VALUES(?, 174, \"Grécia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 174, \"Espanha\",1);\n
+		INSERT INTO Perguntas VALUES(175,9,\" Qual era a nacionalidade de Elvis Presley?\");\n
+		INSERT INTO Alternativas VALUES(?, 175, \"Havaiana\",0);\n
+		INSERT INTO Alternativas VALUES(?, 175, \"Americana\",1);\n
+		INSERT INTO Alternativas VALUES(?, 175, \"Inglesa\",0);\n
+		INSERT INTO Alternativas VALUES(?, 175, \"Canadense\",0);\n
+		INSERT INTO Perguntas VALUES(176,9,\" O general Franco foi um ditador de qual país?\");\n
+		INSERT INTO Alternativas VALUES(?, 176, \"França\",0);\n
+		INSERT INTO Alternativas VALUES(?, 176, \"Paraguai\",0);\n
+		INSERT INTO Alternativas VALUES(?, 176, \"Espanha\",1);\n
+		INSERT INTO Alternativas VALUES(?, 176, \"Cuba\",0);\n
+		INSERT INTO Perguntas VALUES(177,9,\" Claustrofobia é quando a pessoa teme:\");\n
+		INSERT INTO Alternativas VALUES(?, 177, \"Altura\",0);\n
+		INSERT INTO Alternativas VALUES(?, 177, \"Lugares Fechados\",1);\n
+		INSERT INTO Alternativas VALUES(?, 177, \"Escuro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 177, \"Bichos\",0);\n
+		INSERT INTO Perguntas VALUES(178,9,\" Quem é o ator principal do filme Exterminador do Futuro?\");\n
+		INSERT INTO Alternativas VALUES(?, 178, \"Sylvester Stallone\",0);\n
+		INSERT INTO Alternativas VALUES(?, 178, \"Kevin Costner\",0);\n
+		INSERT INTO Alternativas VALUES(?, 178, \"Arnold Schwarzenegger\",1);\n
+		INSERT INTO Alternativas VALUES(?, 178, \"Jean Claude Van Damme\",0);\n
+		INSERT INTO Perguntas VALUES(179,9,\" Se alguém falar que quebrou o ilíaco, você entende que quebrou o quê?\");\n
+		INSERT INTO Alternativas VALUES(?, 179, \"Uma Porcelana\",0);\n
+		INSERT INTO Alternativas VALUES(?, 179, \"Um Osso\",1);\n
+		INSERT INTO Alternativas VALUES(?, 179, \"Uma Arma\",0);\n
+		INSERT INTO Alternativas VALUES(?, 179, \"Uma Máquina\",0);\n
+		INSERT INTO Perguntas VALUES(180,9,\" Qual aparelho mede a chuva num determinado lugar?\");\n
+		INSERT INTO Alternativas VALUES(?, 180, \"Barômetro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 180, \"Pluviômetro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 180, \"Higrômetro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 180, \"Termômetro\",0);\n
+		INSERT INTO Perguntas VALUES(181,10,\" Qual é o nome do orvalho congelado?\");\n
+		INSERT INTO Alternativas VALUES(?, 181, \"Neve\",0);\n
+		INSERT INTO Alternativas VALUES(?, 181, \"Granizo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 181, \"Geada\",1);\n
+		INSERT INTO Alternativas VALUES(?, 181, \"Neblina\",0);\n
+		INSERT INTO Perguntas VALUES(182,10,\" Qual é a moeda do Paraguai?\");\n
+		INSERT INTO Alternativas VALUES(?, 182, \"Escudo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 182, \"Peso\",0);\n
+		INSERT INTO Alternativas VALUES(?, 182, \"Dólar Paraguaio\",0);\n
+		INSERT INTO Alternativas VALUES(?, 182, \"Guarani\",1);\n
+		INSERT INTO Perguntas VALUES(183,10,\" O que é aspartame?\");\n
+		INSERT INTO Alternativas VALUES(?, 183, \"Adoçante Artificial\",1);\n
+		INSERT INTO Alternativas VALUES(?, 183, \"Programa De Computador\",0);\n
+		INSERT INTO Alternativas VALUES(?, 183, \"Um Jogo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 183, \"Um Prato Francês\",0);\n
+		INSERT INTO Perguntas VALUES(184,10,\" O carneiro é um:\");\n
+		INSERT INTO Alternativas VALUES(?, 184, \"Suíno\",0);\n
+		INSERT INTO Alternativas VALUES(?, 184, \"Eqüino\",0);\n
+		INSERT INTO Alternativas VALUES(?, 184, \"Ovino\",1);\n
+		INSERT INTO Alternativas VALUES(?, 184, \"Bovino\",0);\n
+		INSERT INTO Perguntas VALUES(185,10,\" Até 1959 qual era a capital do Brasil?\");\n
+		INSERT INTO Alternativas VALUES(?, 185, \"Rio De Janeiro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 185, \"São Paulo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 185, \"Brasília\",0);\n
+		INSERT INTO Alternativas VALUES(?, 185, \"Curitiba\",0);\n
+		INSERT INTO Perguntas VALUES(186,10,\" Quantos lados possui o decágono ?\");\n
+		INSERT INTO Alternativas VALUES(?, 186, \"Sete\",0);\n
+		INSERT INTO Alternativas VALUES(?, 186, \"Doze\",0);\n
+		INSERT INTO Alternativas VALUES(?, 186, \"Dez\",1);\n
+		INSERT INTO Alternativas VALUES(?, 186, \"Nove\",0);\n
+		INSERT INTO Perguntas VALUES(187,10,\" No radar foi usado o mesmo princípio de qual animal?\");\n
+		INSERT INTO Alternativas VALUES(?, 187, \"Rato\",0);\n
+		INSERT INTO Alternativas VALUES(?, 187, \"Coruja\",0);\n
+		INSERT INTO Alternativas VALUES(?, 187, \"Morcego\",1);\n
+		INSERT INTO Alternativas VALUES(?, 187, \"Gambá\",0);\n
+		INSERT INTO Perguntas VALUES(188,10,\" Qual dessas doenças é sexualmente transmissível?\");\n
+		INSERT INTO Alternativas VALUES(?, 188, \"Cefaléia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 188, \"Sífilis\",1);\n
+		INSERT INTO Alternativas VALUES(?, 188, \"Gripe\",0);\n
+		INSERT INTO Alternativas VALUES(?, 188, \"Salmonela\",0);\n
+		INSERT INTO Perguntas VALUES(189,10,\" Como eram chamados os reis do antigo Egito?\");\n
+		INSERT INTO Alternativas VALUES(?, 189, \"Generais\",0);\n
+		INSERT INTO Alternativas VALUES(?, 189, \"Faraós\",1);\n
+		INSERT INTO Alternativas VALUES(?, 189, \"Xeques\",0);\n
+		INSERT INTO Alternativas VALUES(?, 189, \"Presidentes\",0);\n
+		INSERT INTO Perguntas VALUES(190,10,\" Qual lugar de Nova York é chamado centro financeiro da América?\");\n
+		INSERT INTO Alternativas VALUES(?, 190, \"Broadway\",0);\n
+		INSERT INTO Alternativas VALUES(?, 190, \"Fifth Avenue\",0);\n
+		INSERT INTO Alternativas VALUES(?, 190, \"Wall Street\",1);\n
+		INSERT INTO Alternativas VALUES(?, 190, \"Central Park\",0);\n
+		INSERT INTO Perguntas VALUES(191,10,\" Onde se localiza o labirinto no corpo humano?\");\n
+		INSERT INTO Alternativas VALUES(?, 191, \"No Peito\",0);\n
+		INSERT INTO Alternativas VALUES(?, 191, \"No Ouvido\",1);\n
+		INSERT INTO Alternativas VALUES(?, 191, \"Na Garganta\",0);\n
+		INSERT INTO Alternativas VALUES(?, 191, \"No Pescoço\",0);\n
+		INSERT INTO Perguntas VALUES(192,10,\" Como ficou conhecido o escândalo que derrubou o presidente Nixon?\");\n
+		INSERT INTO Alternativas VALUES(?, 192, \"Monicagate\",0);\n
+		INSERT INTO Alternativas VALUES(?, 192, \"Contragate\",0);\n
+		INSERT INTO Alternativas VALUES(?, 192, \"Watergate\",1);\n
+		INSERT INTO Alternativas VALUES(?, 192, \"Golden Gate\",0);\n
+		INSERT INTO Perguntas VALUES(193,10,\" Como se chama o pano com o qual Jesus foi enterrado?\");\n
+		INSERT INTO Alternativas VALUES(?, 193, \"Manto De Jesus\",0);\n
+		INSERT INTO Alternativas VALUES(?, 193, \"Santo Sudário\",1);\n
+		INSERT INTO Alternativas VALUES(?, 193, \"Manta Sagrada\",0);\n
+		INSERT INTO Alternativas VALUES(?, 193, \"Pano De Deus\",0);\n
+		INSERT INTO Perguntas VALUES(194,10,\" Como se chama o canal que separa a França da Inglaterra?\");\n
+		INSERT INTO Alternativas VALUES(?, 194, \"Canal Do Panamá\",0);\n
+		INSERT INTO Alternativas VALUES(?, 194, \"Canal De Suez\",0);\n
+		INSERT INTO Alternativas VALUES(?, 194, \"Canal Da Mancha\",1);\n
+		INSERT INTO Alternativas VALUES(?, 194, \"Canal De Kiel\",0);\n
+		INSERT INTO Perguntas VALUES(195,10,\" Quantas vezes Pelé foi campeão do mundo?\");\n
+		INSERT INTO Alternativas VALUES(?, 195, \"Quatro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 195, \"Cinco\",1);\n
+		INSERT INTO Alternativas VALUES(?, 195, \"Seis\",0);\n
+		INSERT INTO Alternativas VALUES(?, 195, \"Sete\",0);\n
+		INSERT INTO Perguntas VALUES(196,10,\" Como Margaret Thatcher era conhecida pela imprensa?\");\n
+		INSERT INTO Alternativas VALUES(?, 196, \"Lady De Aço\",0);\n
+		INSERT INTO Alternativas VALUES(?, 196, \"Dama De Ferro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 196, \"Mulher Do Século\",0);\n
+		INSERT INTO Alternativas VALUES(?, 196, \"Margaret, A Grande\",0);\n
+		INSERT INTO Perguntas VALUES(197,10,\" Que parte do corpo a cobra usa para sentir cheiro?\");\n
+		INSERT INTO Alternativas VALUES(?, 197, \"Cauda\",0);\n
+		INSERT INTO Alternativas VALUES(?, 197, \"Língua\",1);\n
+		INSERT INTO Alternativas VALUES(?, 197, \"Dentes\",0);\n
+		INSERT INTO Alternativas VALUES(?, 197, \"Narina\",0);\n
+		INSERT INTO Perguntas VALUES(198,10,\" Quem foi Mata Hari?\");\n
+		INSERT INTO Alternativas VALUES(?, 198, \"Escritora\",0);\n
+		INSERT INTO Alternativas VALUES(?, 198, \"Espiã\",1);\n
+		INSERT INTO Alternativas VALUES(?, 198, \"Cientista\",0);\n
+		INSERT INTO Alternativas VALUES(?, 198, \"Política\",0);\n
+		INSERT INTO Perguntas VALUES(199,10,\" Qual destes políticos nunca foi presidente?\");\n
+		INSERT INTO Alternativas VALUES(?, 199, \"Castello Branco\",0);\n
+		INSERT INTO Alternativas VALUES(?, 199, \"João Figueiredo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 199, \"José Sarney\",0);\n
+		INSERT INTO Alternativas VALUES(?, 199, \"Orestes Quércia\",1);\n
+		INSERT INTO Perguntas VALUES(200,10,\" A perda progressiva de cabelos no ser humano é chamada de?\");\n
+		INSERT INTO Alternativas VALUES(?, 200, \"Caliopenia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 200, \"Calvície\",1);\n
+		INSERT INTO Alternativas VALUES(?, 200, \"Catástrofe\",0);\n
+		INSERT INTO Alternativas VALUES(?, 200, \"Calamidade\",0);\n
+		INSERT INTO Perguntas VALUES(201,11,\" Qual a nacionalidade do escritor Gabriel García Márquez?\");\n
+		INSERT INTO Alternativas VALUES(?, 201, \"Argentina\",0);\n
+		INSERT INTO Alternativas VALUES(?, 201, \"Colombiana\",1);\n
+		INSERT INTO Alternativas VALUES(?, 201, \"Espanhola\",0);\n
+		INSERT INTO Alternativas VALUES(?, 201, \"Chilena\",0);\n
+		INSERT INTO Perguntas VALUES(202,11,\" Quem compôs As bachianas brasileiras?\");\n
+		INSERT INTO Alternativas VALUES(?, 202, \"Wagner Tiso\",0);\n
+		INSERT INTO Alternativas VALUES(?, 202, \"Carlos Gomes\",0);\n
+		INSERT INTO Alternativas VALUES(?, 202, \"César Camargo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 202, \"Mariano Villa-Lobos\",1);\n
+		INSERT INTO Perguntas VALUES(203,11,\" Suçuarana é outro nome de que animal?\");\n
+		INSERT INTO Alternativas VALUES(?, 203, \"Lontra\",0);\n
+		INSERT INTO Alternativas VALUES(?, 203, \"Girafa\",0);\n
+		INSERT INTO Alternativas VALUES(?, 203, \"Onça-Parda\",1);\n
+		INSERT INTO Alternativas VALUES(?, 203, \"Zebra\",0);\n
+		INSERT INTO Perguntas VALUES(204,11,\" Em que é baseado o calendário judaico?\");\n
+		INSERT INTO Alternativas VALUES(?, 204, \"Na Lua\",1);\n
+		INSERT INTO Alternativas VALUES(?, 204, \"No Sol\",0);\n
+		INSERT INTO Alternativas VALUES(?, 204, \"Nas Estrelas\",0);\n
+		INSERT INTO Alternativas VALUES(?, 204, \"Nos Planetas\",0);\n
+		INSERT INTO Perguntas VALUES(205,11,\" Que nome damos à ciência que estuda as rochas?\");\n
+		INSERT INTO Alternativas VALUES(?, 205, \"Tecnonismia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 205, \"Petrografia\",1);\n
+		INSERT INTO Alternativas VALUES(?, 205, \"Mineralista\",0);\n
+		INSERT INTO Alternativas VALUES(?, 205, \"Rochística\",0);\n
+		INSERT INTO Perguntas VALUES(206,11,\" Quem disse a polêmica frase Somos mais populares que Jesus Cristo?\");\n
+		INSERT INTO Alternativas VALUES(?, 206, \"Martin Luther King\",0);\n
+		INSERT INTO Alternativas VALUES(?, 206, \"Madonna\",0);\n
+		INSERT INTO Alternativas VALUES(?, 206, \"John Lennon\",1);\n
+		INSERT INTO Alternativas VALUES(?, 206, \"Elvis Presley\",0);\n
+		INSERT INTO Perguntas VALUES(207,11,\" Que peça da Broadway é baseada na ópera La boheme de Puccini?\");\n
+		INSERT INTO Alternativas VALUES(?, 207, \"Rent\",1);\n
+		INSERT INTO Alternativas VALUES(?, 207, \"Showboat\",0);\n
+		INSERT INTO Alternativas VALUES(?, 207, \"Les Miserables\",0);\n
+		INSERT INTO Alternativas VALUES(?, 207, \"Cats\",0);\n
+		INSERT INTO Perguntas VALUES(208,11,\" Quem popularizou a escultura com partes móveis, conhecida como Móbile?\");\n
+		INSERT INTO Alternativas VALUES(?, 208, \"Pablo Picasso\",0);\n
+		INSERT INTO Alternativas VALUES(?, 208, \"Alexander Calder\",1);\n
+		INSERT INTO Alternativas VALUES(?, 208, \"Auguste Rodin\",0);\n
+		INSERT INTO Alternativas VALUES(?, 208, \"Henry Moore\",0);\n
+		INSERT INTO Perguntas VALUES(209,11,\" Qual destes nomes não pertence a um bailarino?\");\n
+		INSERT INTO Alternativas VALUES(?, 209, \"Igor Stravinsky\",1);\n
+		INSERT INTO Alternativas VALUES(?, 209, \"Vaslav Nijinsky\",0);\n
+		INSERT INTO Alternativas VALUES(?, 209, \"Rudolf Nureyev\",0);\n
+		INSERT INTO Alternativas VALUES(?, 209, \"Mikhail Barishnikov\",0);\n
+		INSERT INTO Perguntas VALUES(210,11,\" Quem desenvolveu a primeira vacina contra a pólio?\");\n
+		INSERT INTO Alternativas VALUES(?, 210, \"Albert Sabin\",0);\n
+		INSERT INTO Alternativas VALUES(?, 210, \"Niels Bohr\",0);\n
+		INSERT INTO Alternativas VALUES(?, 210, \"Louis Pasteur\",0);\n
+		INSERT INTO Alternativas VALUES(?, 210, \"Jonas Salk\",1);\n
+		INSERT INTO Perguntas VALUES(211,11,\" Qual foi o personagem de vampiro criado pela novelista Anne Rice?\");\n
+		INSERT INTO Alternativas VALUES(?, 211, \"Nosferatu\",0);\n
+		INSERT INTO Alternativas VALUES(?, 211, \"Drácula\",0);\n
+		INSERT INTO Alternativas VALUES(?, 211, \"Lestat\",1);\n
+		INSERT INTO Alternativas VALUES(?, 211, \"Vlad\",0);\n
+		INSERT INTO Perguntas VALUES(212,11,\" A filha caçula de qual campeão de boxe ganhou a 1ª luta em 1999?\");\n
+		INSERT INTO Alternativas VALUES(?, 212, \"Mike Tyson\",0);\n
+		INSERT INTO Alternativas VALUES(?, 212, \"George Foreman\",0);\n
+		INSERT INTO Alternativas VALUES(?, 212, \"Muhamed Ali\",1);\n
+		INSERT INTO Alternativas VALUES(?, 212, \"Sugar Ray Leonard\",0);\n
+		INSERT INTO Perguntas VALUES(213,11,\" Andy Warhol causou polêmica ao pintar o que em suas telas?\");\n
+		INSERT INTO Alternativas VALUES(?, 213, \"Caixas De Fósforos\",0);\n
+		INSERT INTO Alternativas VALUES(?, 213, \"Latas De Sopa\",1);\n
+		INSERT INTO Alternativas VALUES(?, 213, \"Mulheres Nuas\",0);\n
+		INSERT INTO Alternativas VALUES(?, 213, \"Tubos De Pasta Dental\",0);\n
+		INSERT INTO Perguntas VALUES(214,11,\" Qual campeão de pesos pesados aposentou-se invicto?\");\n
+		INSERT INTO Alternativas VALUES(?, 214, \"Muhamed Ali\",0);\n
+		INSERT INTO Alternativas VALUES(?, 214, \"Rocky Marciano\",1);\n
+		INSERT INTO Alternativas VALUES(?, 214, \"Joe Louis\",0);\n
+		INSERT INTO Alternativas VALUES(?, 214, \"Jack Dempsey\",0);\n
+		INSERT INTO Perguntas VALUES(215,11,\" Quem inventou o relógio de pêndulo?\");\n
+		INSERT INTO Alternativas VALUES(?, 215, \"Geraldo Mercator\",0);\n
+		INSERT INTO Alternativas VALUES(?, 215, \"Cláudio Ptolomeu\",0);\n
+		INSERT INTO Alternativas VALUES(?, 215, \"Galileu Galilei\",1);\n
+		INSERT INTO Alternativas VALUES(?, 215, \"Charles Darwin\",0);\n
+		INSERT INTO Perguntas VALUES(216,11,\" O prêmio Nobel da Paz é anualmente entregue em que cidade?\");\n
+		INSERT INTO Alternativas VALUES(?, 216, \"Copenhague\",0);\n
+		INSERT INTO Alternativas VALUES(?, 216, \"Helsinque\",0);\n
+		INSERT INTO Alternativas VALUES(?, 216, \"Estocolmo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 216, \"Oslo\",1);\n
+		INSERT INTO Perguntas VALUES(217,11,\" Em que país nasceu o tenista Fernando Meligeni?\");\n
+		INSERT INTO Alternativas VALUES(?, 217, \"Argentina\",1);\n
+		INSERT INTO Alternativas VALUES(?, 217, \"Brasil\",0);\n
+		INSERT INTO Alternativas VALUES(?, 217, \"Bolívia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 217, \"Uruguai\",0);\n
+		INSERT INTO Perguntas VALUES(218,11,\" A famosa escultura O beijo é de autoria de:\");\n
+		INSERT INTO Alternativas VALUES(?, 218, \"De Chirico\",0);\n
+		INSERT INTO Alternativas VALUES(?, 218, \"Camille Claudel\",0);\n
+		INSERT INTO Alternativas VALUES(?, 218, \"Victor Brecheret\",0);\n
+		INSERT INTO Alternativas VALUES(?, 218, \"Auguste Rodin\",1);\n
+		INSERT INTO Perguntas VALUES(219,11,\" Como se chama o carbonato de cálcio do teto de uma caverna?\");\n
+		INSERT INTO Alternativas VALUES(?, 219, \"Estagmento\",0);\n
+		INSERT INTO Alternativas VALUES(?, 219, \"Estalagmite\",0);\n
+		INSERT INTO Alternativas VALUES(?, 219, \"Estiagem\",0);\n
+		INSERT INTO Alternativas VALUES(?, 219, \"Estalactite\",1);\n
+		INSERT INTO Perguntas VALUES(220,11,\" Quem escreveu Os miseráveis?\");\n
+		INSERT INTO Alternativas VALUES(?, 220, \"Emile Zola\",0);\n
+		INSERT INTO Alternativas VALUES(?, 220, \"Victor Hugo\",1);\n
+		INSERT INTO Alternativas VALUES(?, 220, \"Flaubert\",0);\n
+		INSERT INTO Alternativas VALUES(?, 220, \"Balzac\",0);\n
+		INSERT INTO Perguntas VALUES(221,12,\" O condimento aromático cravo-da-índia é:\");\n
+		INSERT INTO Alternativas VALUES(?, 221, \"Uma Raíz\",0);\n
+		INSERT INTO Alternativas VALUES(?, 221, \"Uma Erva Campestre\",0);\n
+		INSERT INTO Alternativas VALUES(?, 221, \"O Botão De Uma Flor\",1);\n
+		INSERT INTO Alternativas VALUES(?, 221, \"Uma Noz\",0);\n
+		INSERT INTO Perguntas VALUES(222,12,\" Quem tem uma empresa de alimentos e doou mais de US$ 90 milhões em caridade?\");\n
+		INSERT INTO Alternativas VALUES(?, 222, \"Jack Nicholson\",0);\n
+		INSERT INTO Alternativas VALUES(?, 222, \"Robert Redford\",0);\n
+		INSERT INTO Alternativas VALUES(?, 222, \"Ben Affleck\",0);\n
+		INSERT INTO Alternativas VALUES(?, 222, \"Paul Newman\",1);\n
+		INSERT INTO Perguntas VALUES(223,12,\" Como se chama a pessoa versada em literatura grega?\");\n
+		INSERT INTO Alternativas VALUES(?, 223, \"Gregário\",0);\n
+		INSERT INTO Alternativas VALUES(?, 223, \"Gregório\",0);\n
+		INSERT INTO Alternativas VALUES(?, 223, \"Helenista\",1);\n
+		INSERT INTO Alternativas VALUES(?, 223, \"Heleno\",0);\n
+		INSERT INTO Perguntas VALUES(224,12,\" Quantas cordas tem um violino comum?\");\n
+		INSERT INTO Alternativas VALUES(?, 224, \"Três\",0);\n
+		INSERT INTO Alternativas VALUES(?, 224, \"Quatro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 224, \"Cinco\",0);\n
+		INSERT INTO Alternativas VALUES(?, 224, \"Seis\",0);\n
+		INSERT INTO Perguntas VALUES(225,12,\" Onde está situado o porto de Pearl Harbour?\");\n
+		INSERT INTO Alternativas VALUES(?, 225, \"Ilhas Virgens\",0);\n
+		INSERT INTO Alternativas VALUES(?, 225, \"Havaí\",1);\n
+		INSERT INTO Alternativas VALUES(?, 225, \"Ilhas Kuriles\",0);\n
+		INSERT INTO Alternativas VALUES(?, 225, \"Ilhas Híbridas\",0);\n
+		INSERT INTO Perguntas VALUES(226,12,\" Em que atividade se destacou Albert Camus?\");\n
+		INSERT INTO Alternativas VALUES(?, 226, \"Literatura\",1);\n
+		INSERT INTO Alternativas VALUES(?, 226, \"Pintura\",0);\n
+		INSERT INTO Alternativas VALUES(?, 226, \"Economia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 226, \"Medicina\",0);\n
+		INSERT INTO Perguntas VALUES(227,12,\" Que parte da matemática estuda especificamente os triângulos?\");\n
+		INSERT INTO Alternativas VALUES(?, 227, \"Numerologia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 227, \"Trigonometria\",1);\n
+		INSERT INTO Alternativas VALUES(?, 227, \"Álgebra\",0);\n
+		INSERT INTO Alternativas VALUES(?, 227, \"Sistema Binário\",0);\n
+		INSERT INTO Perguntas VALUES(228,12,\" Quem é o autor do conto clássico Chapeuzinho Vermelho, de 1697?\");\n
+		INSERT INTO Alternativas VALUES(?, 228, \"Charles Perrault\",1);\n
+		INSERT INTO Alternativas VALUES(?, 228, \"Lewis Carrol\",0);\n
+		INSERT INTO Alternativas VALUES(?, 228, \"Bertolt Brecht\",0);\n
+		INSERT INTO Alternativas VALUES(?, 228, \"Edgar Allan Poe\",0);\n
+		INSERT INTO Perguntas VALUES(229,12,\" Em que cidade nasceu Giorgio Armani?\");\n
+		INSERT INTO Alternativas VALUES(?, 229, \"Milão\",0);\n
+		INSERT INTO Alternativas VALUES(?, 229, \"Florença\",0);\n
+		INSERT INTO Alternativas VALUES(?, 229, \"Veneza\",0);\n
+		INSERT INTO Alternativas VALUES(?, 229, \"Piacenza\",1);\n
+		INSERT INTO Perguntas VALUES(230,12,\" Em que ano morreu o cantor Raul Seixas?\");\n
+		INSERT INTO Alternativas VALUES(?, 230, \"1989\",1);\n
+		INSERT INTO Alternativas VALUES(?, 230, \"1990\",0);\n
+		INSERT INTO Alternativas VALUES(?, 230, \"1991\",0);\n
+		INSERT INTO Alternativas VALUES(?, 230, \"1992\",0);\n
+		INSERT INTO Perguntas VALUES(231,12,\" O que significa a palavra ósculo?\");\n
+		INSERT INTO Alternativas VALUES(?, 231, \"Vistoria\",0);\n
+		INSERT INTO Alternativas VALUES(?, 231, \"Beijo\",1);\n
+		INSERT INTO Alternativas VALUES(?, 231, \"Osso\",0);\n
+		INSERT INTO Alternativas VALUES(?, 231, \"Exame\",0);\n
+		INSERT INTO Perguntas VALUES(232,12,\" Em que cidade nasceu o presidente Arthur Bernardes?\");\n
+		INSERT INTO Alternativas VALUES(?, 232, \"Recife\",0);\n
+		INSERT INTO Alternativas VALUES(?, 232, \"Florianópolis\",0);\n
+		INSERT INTO Alternativas VALUES(?, 232, \"Viçosa\",1);\n
+		INSERT INTO Alternativas VALUES(?, 232, \"Sorocaba\",0);\n
+		INSERT INTO Perguntas VALUES(233,12,\" O que é cassiterita?\");\n
+		INSERT INTO Alternativas VALUES(?, 233, \"Um Tipo De Queijo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 233, \"Uma Dança Sueca\",0);\n
+		INSERT INTO Alternativas VALUES(?, 233, \"Um Mineral\",1);\n
+		INSERT INTO Alternativas VALUES(?, 233, \"Uma Bebida Basca\",0);\n
+		INSERT INTO Perguntas VALUES(234,12,\" Quem construiu a primeira ferrovia no Brasil?\");\n
+		INSERT INTO Alternativas VALUES(?, 234, \"Barão De Capanema\",0);\n
+		INSERT INTO Alternativas VALUES(?, 234, \"Dom Pedro Ii\",0);\n
+		INSERT INTO Alternativas VALUES(?, 234, \"Barão De Mauá\",1);\n
+		INSERT INTO Alternativas VALUES(?, 234, \"José Bonifácio\",0);\n
+		INSERT INTO Perguntas VALUES(235,12,\" Qual teoria Nicolau Copérnico defendeu em 1542?\");\n
+		INSERT INTO Alternativas VALUES(?, 235, \"Excêntrica\",0);\n
+		INSERT INTO Alternativas VALUES(?, 235, \"Heliocêntrica\",1);\n
+		INSERT INTO Alternativas VALUES(?, 235, \"Egocêntrica\",0);\n
+		INSERT INTO Alternativas VALUES(?, 235, \"Da Relatividade\",0);\n
+		INSERT INTO Perguntas VALUES(236,12,\" Em que estado norteamericano está a cidade de Houston?\");\n
+		INSERT INTO Alternativas VALUES(?, 236, \"Califórnia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 236, \"Utah\",0);\n
+		INSERT INTO Alternativas VALUES(?, 236, \"Texas\",1);\n
+		INSERT INTO Alternativas VALUES(?, 236, \"Nevada\",0);\n
+		INSERT INTO Perguntas VALUES(237,12,\" Qual era o sobrenome de solteira de Lady Diana?\");\n
+		INSERT INTO Alternativas VALUES(?, 237, \"Spencer\",1);\n
+		INSERT INTO Alternativas VALUES(?, 237, \"Smith\",0);\n
+		INSERT INTO Alternativas VALUES(?, 237, \"Tudor\",0);\n
+		INSERT INTO Alternativas VALUES(?, 237, \"Ferguson\",0);\n
+		INSERT INTO Perguntas VALUES(238,12,\" Que nome se dá à igreja presidida por um bispado?\");\n
+		INSERT INTO Alternativas VALUES(?, 238, \"Catedral\",1);\n
+		INSERT INTO Alternativas VALUES(?, 238, \"Paróquia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 238, \"Capela\",0);\n
+		INSERT INTO Alternativas VALUES(?, 238, \"Monastério\",0);\n
+		INSERT INTO Perguntas VALUES(239,12,\" Quem compôs a ópera A flauta mágica?\");\n
+		INSERT INTO Alternativas VALUES(?, 239, \"Wolfgang Mozart\",1);\n
+		INSERT INTO Alternativas VALUES(?, 239, \"Giacomo Puccini\",0);\n
+		INSERT INTO Alternativas VALUES(?, 239, \"Richard Wagner\",0);\n
+		INSERT INTO Alternativas VALUES(?, 239, \"Giuseppe Verdi\",0);\n
+		INSERT INTO Perguntas VALUES(240,12,\" Em que país fica o Taj Mahal?\");\n
+		INSERT INTO Alternativas VALUES(?, 240, \"Egito\",0);\n
+		INSERT INTO Alternativas VALUES(?, 240, \"China\",0);\n
+		INSERT INTO Alternativas VALUES(?, 240, \"Turquia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 240, \"Índia\",1);\n
+		INSERT INTO Perguntas VALUES(241,13,\" A lua é:\");\n
+		INSERT INTO Alternativas VALUES(?, 241, \"Um Asteróide\",0);\n
+		INSERT INTO Alternativas VALUES(?, 241, \"Um Planeta\",0);\n
+		INSERT INTO Alternativas VALUES(?, 241, \"Um Satélite\",1);\n
+		INSERT INTO Alternativas VALUES(?, 241, \"Uma Estrela\",0);\n
+		INSERT INTO Perguntas VALUES(242,13,\" Como se chamava a polícia secreta da URSS?\");\n
+		INSERT INTO Alternativas VALUES(?, 242, \"Cia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 242, \"Fbi\",0);\n
+		INSERT INTO Alternativas VALUES(?, 242, \"Kgb\",1);\n
+		INSERT INTO Alternativas VALUES(?, 242, \"Cpi\",0);\n
+		INSERT INTO Perguntas VALUES(243,13,\" Qual era o destino do navio Titanic quando saiu da Inglaterra?\");\n
+		INSERT INTO Alternativas VALUES(?, 243, \"Estados Unidos\",1);\n
+		INSERT INTO Alternativas VALUES(?, 243, \"China\",0);\n
+		INSERT INTO Alternativas VALUES(?, 243, \"França\",0);\n
+		INSERT INTO Alternativas VALUES(?, 243, \"Canadá\",0);\n
+		INSERT INTO Perguntas VALUES(244,13,\" Qual dessas doenças é também chamada de varicela?\");\n
+		INSERT INTO Alternativas VALUES(?, 244, \"Rubéola\",0);\n
+		INSERT INTO Alternativas VALUES(?, 244, \"Sarampo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 244, \"Catapora\",1);\n
+		INSERT INTO Alternativas VALUES(?, 244, \"Caxumba\",0);\n
+		INSERT INTO Perguntas VALUES(245,13,\" Qual documento libertava os escravos antes da Lei Áurea?\");\n
+		INSERT INTO Alternativas VALUES(?, 245, \"Carta De Reclamação\",0);\n
+		INSERT INTO Alternativas VALUES(?, 245, \"Carta De Alforria\",1);\n
+		INSERT INTO Alternativas VALUES(?, 245, \"Carta De Habilitação\",0);\n
+		INSERT INTO Alternativas VALUES(?, 245, \"Carta Da Liberdade\",0);\n
+		INSERT INTO Perguntas VALUES(246,13,\" Qual dos seguintes personagens foi um orador grego?\");\n
+		INSERT INTO Alternativas VALUES(?, 246, \"Demóstenes\",1);\n
+		INSERT INTO Alternativas VALUES(?, 246, \"Deocleciano\",0);\n
+		INSERT INTO Alternativas VALUES(?, 246, \"Demérito\",0);\n
+		INSERT INTO Alternativas VALUES(?, 246, \"Demontre\",0);\n
+		INSERT INTO Perguntas VALUES(247,13,\" Qual a maior ilha fluviomarítima do mundo?\");\n
+		INSERT INTO Alternativas VALUES(?, 247, \"Ilha De Marajó\",1);\n
+		INSERT INTO Alternativas VALUES(?, 247, \"Fernando De Noronha\",0);\n
+		INSERT INTO Alternativas VALUES(?, 247, \"Ilha Do\",0);\n
+		INSERT INTO Alternativas VALUES(?, 247, \" El\",0);\n
+		INSERT INTO Perguntas VALUES(248,13,\" Quem foi o primeiro presidente a ser eleito por voto popular na Rússia?\");\n
+		INSERT INTO Alternativas VALUES(?, 248, \"Boris Yeltsin\",1);\n
+		INSERT INTO Alternativas VALUES(?, 248, \"Stalin Mikhail\",0);\n
+		INSERT INTO Alternativas VALUES(?, 248, \"Mikhail Gorbatchev\",0);\n
+		INSERT INTO Alternativas VALUES(?, 248, \"Lenin\",0);\n
+		INSERT INTO Perguntas VALUES(249,13,\" Quem liderou a revolução contra a ditadura de Fulgencio Batista?\");\n
+		INSERT INTO Alternativas VALUES(?, 249, \"Che Guevara\",0);\n
+		INSERT INTO Alternativas VALUES(?, 249, \"Fidel Castro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 249, \"Juan Perón\",0);\n
+		INSERT INTO Alternativas VALUES(?, 249, \"Augusto Pinochet\",0);\n
+		INSERT INTO Perguntas VALUES(250,13,\" Qual é o nome do sindicato que Lech Walesa fundou na Polônia em 1980?\");\n
+		INSERT INTO Alternativas VALUES(?, 250, \"Trabalhista\",0);\n
+		INSERT INTO Alternativas VALUES(?, 250, \"Conservador\",0);\n
+		INSERT INTO Alternativas VALUES(?, 250, \"Comunista\",0);\n
+		INSERT INTO Alternativas VALUES(?, 250, \"Solidariedade\",1);\n
+		INSERT INTO Perguntas VALUES(251,13,\" Em que ano o muro de Berlim foi derrubado?\");\n
+		INSERT INTO Alternativas VALUES(?, 251, \"1975\",0);\n
+		INSERT INTO Alternativas VALUES(?, 251, \"1984\",0);\n
+		INSERT INTO Alternativas VALUES(?, 251, \"1990\",0);\n
+		INSERT INTO Alternativas VALUES(?, 251, \"1989\",1);\n
+		INSERT INTO Perguntas VALUES(252,13,\" Até a chegada de Cortés na América, Montezuma II era o líder de qual povo?\");\n
+		INSERT INTO Alternativas VALUES(?, 252, \"Maia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 252, \"Asteca\",1);\n
+		INSERT INTO Alternativas VALUES(?, 252, \"Inca\",0);\n
+		INSERT INTO Alternativas VALUES(?, 252, \"Guarani\",0);\n
+		INSERT INTO Perguntas VALUES(253,13,\" Quem é o famoso detetive personagem das obras de Agatha Christie?\");\n
+		INSERT INTO Alternativas VALUES(?, 253, \"Herculano\",0);\n
+		INSERT INTO Alternativas VALUES(?, 253, \"Sam Wood\",0);\n
+		INSERT INTO Alternativas VALUES(?, 253, \"Sherlock Holmes\",0);\n
+		INSERT INTO Alternativas VALUES(?, 253, \"Hercule Poirot\",1);\n
+		INSERT INTO Perguntas VALUES(254,13,\" Quem era o deus supremo da mitologia grega?\");\n
+		INSERT INTO Alternativas VALUES(?, 254, \"Hermes\",0);\n
+		INSERT INTO Alternativas VALUES(?, 254, \"Zeus\",1);\n
+		INSERT INTO Alternativas VALUES(?, 254, \"Apolo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 254, \"Netuno\",0);\n
+		INSERT INTO Perguntas VALUES(255,13,\" Qual era o deus romano da guerra?\");\n
+		INSERT INTO Alternativas VALUES(?, 255, \"Marte\",1);\n
+		INSERT INTO Alternativas VALUES(?, 255, \"Júpiter\",0);\n
+		INSERT INTO Alternativas VALUES(?, 255, \"Hades\",0);\n
+		INSERT INTO Alternativas VALUES(?, 255, \"Netuno\",0);\n
+		INSERT INTO Perguntas VALUES(256,13,\" Qual é o nome de Vênus pela mitologia grega?\");\n
+		INSERT INTO Alternativas VALUES(?, 256, \"Ártemis\",0);\n
+		INSERT INTO Alternativas VALUES(?, 256, \"Diana\",0);\n
+		INSERT INTO Alternativas VALUES(?, 256, \"Afrodite\",1);\n
+		INSERT INTO Alternativas VALUES(?, 256, \"Ísis\",0);\n
+		INSERT INTO Perguntas VALUES(257,13,\" Qual é a característica reprodutiva das mulas?\");\n
+		INSERT INTO Alternativas VALUES(?, 257, \"Uma Cria Por Ano\",0);\n
+		INSERT INTO Alternativas VALUES(?, 257, \"Duas Crias Por Ano\",0);\n
+		INSERT INTO Alternativas VALUES(?, 257, \"Uma Cria A Cada Dois Anos\",0);\n
+		INSERT INTO Alternativas VALUES(?, 257, \"São Estéreis\",1);\n
+		INSERT INTO Perguntas VALUES(258,13,\" Qual é a profissão do exjogador da seleção brasileira Tostão?\");\n
+		INSERT INTO Alternativas VALUES(?, 258, \"Arquiteto\",0);\n
+		INSERT INTO Alternativas VALUES(?, 258, \"Engenheiro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 258, \"Dentista\",0);\n
+		INSERT INTO Alternativas VALUES(?, 258, \"Médico\",1);\n
+		INSERT INTO Perguntas VALUES(259,13,\" Em que assunto um enólogo é especialista?\");\n
+		INSERT INTO Alternativas VALUES(?, 259, \"Moedas\",0);\n
+		INSERT INTO Alternativas VALUES(?, 259, \"Vinhos\",1);\n
+		INSERT INTO Alternativas VALUES(?, 259, \"Livros\",0);\n
+		INSERT INTO Alternativas VALUES(?, 259, \"Índios\",0);\n
+		INSERT INTO Perguntas VALUES(260,13,\" A coroa usada como prêmio pelos atletas greco-romanos era feita com folhas de qual planta?\");\n
+		INSERT INTO Alternativas VALUES(?, 260, \"Jacarandá\",0);\n
+		INSERT INTO Alternativas VALUES(?, 260, \"Parreira\",0);\n
+		INSERT INTO Alternativas VALUES(?, 260, \"Louro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 260, \"Ébano\",0);\n
+		INSERT INTO Perguntas VALUES(261,14,\" Qual mineral é a principal fonte do alumínio?\");\n
+		INSERT INTO Alternativas VALUES(?, 261, \"Bauxita\",1);\n
+		INSERT INTO Alternativas VALUES(?, 261, \"Calcário\",0);\n
+		INSERT INTO Alternativas VALUES(?, 261, \"Calcita\",0);\n
+		INSERT INTO Alternativas VALUES(?, 261, \"Cassiterita\",0);\n
+		INSERT INTO Perguntas VALUES(262,14,\" Como representamos o número 500 em algarismos romanos?\");\n
+		INSERT INTO Alternativas VALUES(?, 262, \"C\",0);\n
+		INSERT INTO Alternativas VALUES(?, 262, \"M\",0);\n
+		INSERT INTO Alternativas VALUES(?, 262, \"D\",1);\n
+		INSERT INTO Alternativas VALUES(?, 262, \"L\",0);\n
+		INSERT INTO Perguntas VALUES(263,14,\" Que objeto é o Santo Graal?\");\n
+		INSERT INTO Alternativas VALUES(?, 263, \"Cálice\",1);\n
+		INSERT INTO Alternativas VALUES(?, 263, \"Tecido\",0);\n
+		INSERT INTO Alternativas VALUES(?, 263, \"Livro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 263, \"Tábua\",0);\n
+		INSERT INTO Perguntas VALUES(264,14,\" Qüingentésimo corresponde a qual número?\");\n
+		INSERT INTO Alternativas VALUES(?, 264, \"500\",1);\n
+		INSERT INTO Alternativas VALUES(?, 264, \"5000\",0);\n
+		INSERT INTO Alternativas VALUES(?, 264, \"50\",0);\n
+		INSERT INTO Alternativas VALUES(?, 264, \"5\",0);\n
+		INSERT INTO Perguntas VALUES(265,14,\" Onde nasceu o artista plástico Cândido Portinari?\");\n
+		INSERT INTO Alternativas VALUES(?, 265, \"Brasil\",1);\n
+		INSERT INTO Alternativas VALUES(?, 265, \"Itália\",0);\n
+		INSERT INTO Alternativas VALUES(?, 265, \"Grécia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 265, \"Espanha\",0);\n
+		INSERT INTO Perguntas VALUES(266,14,\" Como se chama o estudo das mudanças das significações das palavras?\");\n
+		INSERT INTO Alternativas VALUES(?, 266, \"Fonética\",0);\n
+		INSERT INTO Alternativas VALUES(?, 266, \"Semântica\",1);\n
+		INSERT INTO Alternativas VALUES(?, 266, \"Filosofia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 266, \"Psiquiatria\",0);\n
+		INSERT INTO Perguntas VALUES(267,14,\" O estudo das relações dos seres vivos e o meio ambiente em que vivem chama-se:\");\n
+		INSERT INTO Alternativas VALUES(?, 267, \"Paleontologia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 267, \"Endoscopia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 267, \"Ortodontia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 267, \"Ecologia\",1);\n
+		INSERT INTO Perguntas VALUES(268,14,\" Qual é a ciência que estuda a origem e a derivação das palavras?\");\n
+		INSERT INTO Alternativas VALUES(?, 268, \"Endoscopia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 268, \"Grafologia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 268, \"Radiografia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 268, \"Etimologia\",1);\n
+		INSERT INTO Perguntas VALUES(269,14,\" Qual é o objeto de estudo da entomologia?\");\n
+		INSERT INTO Alternativas VALUES(?, 269, \"Insetos\",1);\n
+		INSERT INTO Alternativas VALUES(?, 269, \"Aves\",0);\n
+		INSERT INTO Alternativas VALUES(?, 269, \"Dentes\",0);\n
+		INSERT INTO Alternativas VALUES(?, 269, \"Símbolos\",0);\n
+		INSERT INTO Perguntas VALUES(270,14,\" Que vitamina também pode ser chamada de retinol?\");\n
+		INSERT INTO Alternativas VALUES(?, 270, \"A\",1);\n
+		INSERT INTO Alternativas VALUES(?, 270, \"B\",0);\n
+		INSERT INTO Alternativas VALUES(?, 270, \"C\",0);\n
+		INSERT INTO Alternativas VALUES(?, 270, \"E\",0);\n
+		INSERT INTO Perguntas VALUES(271,14,\" Kampala é a capital de qual país?\");\n
+		INSERT INTO Alternativas VALUES(?, 271, \"Uganda\",1);\n
+		INSERT INTO Alternativas VALUES(?, 271, \"Nigéria\",0);\n
+		INSERT INTO Alternativas VALUES(?, 271, \"Moçambique\",0);\n
+		INSERT INTO Alternativas VALUES(?, 271, \"Ruanda\",0);\n
+		INSERT INTO Perguntas VALUES(272,14,\" Que pintor brasileiro retratava os problemas sociais do Brasil?\");\n
+		INSERT INTO Alternativas VALUES(?, 272, \"Di Cavalcanti\",0);\n
+		INSERT INTO Alternativas VALUES(?, 272, \"Cândido Portinari\",1);\n
+		INSERT INTO Alternativas VALUES(?, 272, \"Volpi\",0);\n
+		INSERT INTO Alternativas VALUES(?, 272, \"Tarsila Do Amaral\",0);\n
+		INSERT INTO Perguntas VALUES(273,14,\" Qual é o nome da esposa do escritor Jorge Amado?\");\n
+		INSERT INTO Alternativas VALUES(?, 273, \"Zélia Cardoso De Melo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 273, \"Zélia Gattai\",1);\n
+		INSERT INTO Alternativas VALUES(?, 273, \"Zélia Ribeiro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 273, \"Zélia De Almeida\",0);\n
+		INSERT INTO Perguntas VALUES(274,14,\" Que país sul-americano foi chamado de Província Cisplatina?\");\n
+		INSERT INTO Alternativas VALUES(?, 274, \"Chile\",0);\n
+		INSERT INTO Alternativas VALUES(?, 274, \"Colômbia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 274, \"Uruguai\",1);\n
+		INSERT INTO Alternativas VALUES(?, 274, \"Equador\",0);\n
+		INSERT INTO Perguntas VALUES(275,14,\" De que país a Indonésia se tornou independente em 1949?\");\n
+		INSERT INTO Alternativas VALUES(?, 275, \"Austrália\",0);\n
+		INSERT INTO Alternativas VALUES(?, 275, \"Países Baixos\",1);\n
+		INSERT INTO Alternativas VALUES(?, 275, \"Índia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 275, \"África Do Sul\",0);\n
+		INSERT INTO Perguntas VALUES(276,14,\" Entre quais países está localizado o Estreito de Gibraltar?\");\n
+		INSERT INTO Alternativas VALUES(?, 276, \"Noruega E Dinamarca\",0);\n
+		INSERT INTO Alternativas VALUES(?, 276, \"Espanha E Marrocos\",1);\n
+		INSERT INTO Alternativas VALUES(?, 276, \"Portugal E Espanha\",0);\n
+		INSERT INTO Alternativas VALUES(?, 276, \"Suíça E Suécia\",0);\n
+		INSERT INTO Perguntas VALUES(277,14,\" Quantos pares de cromossomos possui o ser humano sadio?\");\n
+		INSERT INTO Alternativas VALUES(?, 277, \"22\",0);\n
+		INSERT INTO Alternativas VALUES(?, 277, \"23\",1);\n
+		INSERT INTO Alternativas VALUES(?, 277, \"24\",0);\n
+		INSERT INTO Alternativas VALUES(?, 277, \"25\",0);\n
+		INSERT INTO Perguntas VALUES(278,14,\" Qual das seguintes palavras não é um sinônimo de mermar?\");\n
+		INSERT INTO Alternativas VALUES(?, 278, \"Debilitar\",0);\n
+		INSERT INTO Alternativas VALUES(?, 278, \"Diminuir\",0);\n
+		INSERT INTO Alternativas VALUES(?, 278, \"Minguar\",0);\n
+		INSERT INTO Alternativas VALUES(?, 278, \"Aumentar\",1);\n
+		INSERT INTO Perguntas VALUES(279,14,\" Quem deu origem à moderna lingüística?\");\n
+		INSERT INTO Alternativas VALUES(?, 279, \"Horase De Saussure\",0);\n
+		INSERT INTO Alternativas VALUES(?, 279, \"Benoite Saussure\",0);\n
+		INSERT INTO Alternativas VALUES(?, 279, \"Nicolas Saussure\",0);\n
+		INSERT INTO Alternativas VALUES(?, 279, \"Ferdinand De Saussure\",1);\n
+		INSERT INTO Perguntas VALUES(280,14,\" Em que ano os muçulmanos invadiram a Península Ibérica?\");\n
+		INSERT INTO Alternativas VALUES(?, 280, \"620\",0);\n
+		INSERT INTO Alternativas VALUES(?, 280, \"750\",0);\n
+		INSERT INTO Alternativas VALUES(?, 280, \"711\",1);\n
+		INSERT INTO Alternativas VALUES(?, 280, \"1080\",0);\n
+		INSERT INTO Perguntas VALUES(281,15,\" O que é notocórdio?\");\n
+		INSERT INTO Alternativas VALUES(?, 281, \"Estrutura Celular\",1);\n
+		INSERT INTO Alternativas VALUES(?, 281, \"Bico Das Aves\",0);\n
+		INSERT INTO Alternativas VALUES(?, 281, \"Embarcação\",0);\n
+		INSERT INTO Alternativas VALUES(?, 281, \"Mártir\",0);\n
+		INSERT INTO Perguntas VALUES(282,15,\" Como se chamava o antigo senado romano?\");\n
+		INSERT INTO Alternativas VALUES(?, 282, \"Cúria\",1);\n
+		INSERT INTO Alternativas VALUES(?, 282, \"Cenuro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 282, \"Distrito\",0);\n
+		INSERT INTO Alternativas VALUES(?, 282, \"Diocese\",0);\n
+		INSERT INTO Perguntas VALUES(283,15,\" Qual era a nacionalidade do palhaço Charlie Rivel?\");\n
+		INSERT INTO Alternativas VALUES(?, 283, \"Inglesa\",0);\n
+		INSERT INTO Alternativas VALUES(?, 283, \"Americana\",0);\n
+		INSERT INTO Alternativas VALUES(?, 283, \"Francesa\",0);\n
+		INSERT INTO Alternativas VALUES(?, 283, \"Espanhola\",1);\n
+		INSERT INTO Perguntas VALUES(284,15,\" A medida da latitude varia de:\");\n
+		INSERT INTO Alternativas VALUES(?, 284, \"0º A 180º\",0);\n
+		INSERT INTO Alternativas VALUES(?, 284, \"90º A 180º\",0);\n
+		INSERT INTO Alternativas VALUES(?, 284, \"0º A 90º\",1);\n
+		INSERT INTO Alternativas VALUES(?, 284, \"180º A 360º\",0);\n
+		INSERT INTO Perguntas VALUES(285,15,\" Em qual região estão 90% de todo o gelo da terra?\");\n
+		INSERT INTO Alternativas VALUES(?, 285, \"Ártica\",0);\n
+		INSERT INTO Alternativas VALUES(?, 285, \"Antártica\",1);\n
+		INSERT INTO Alternativas VALUES(?, 285, \"Tropical\",0);\n
+		INSERT INTO Alternativas VALUES(?, 285, \"Temperada\",0);\n
+		INSERT INTO Perguntas VALUES(286,15,\" Qual ave põe ovos azuis?\");\n
+		INSERT INTO Alternativas VALUES(?, 286, \"Emu\",0);\n
+		INSERT INTO Alternativas VALUES(?, 286, \"Garça-Cinzenta\",1);\n
+		INSERT INTO Alternativas VALUES(?, 286, \"Sabiá\",0);\n
+		INSERT INTO Alternativas VALUES(?, 286, \"Avestruz\",0);\n
+		INSERT INTO Perguntas VALUES(287,15,\" Qual é o sobrenome dos irmãos que inventaram o cinema?\");\n
+		INSERT INTO Alternativas VALUES(?, 287, \"Lumière\",1);\n
+		INSERT INTO Alternativas VALUES(?, 287, \"Marx\",0);\n
+		INSERT INTO Alternativas VALUES(?, 287, \"Warner\",0);\n
+		INSERT INTO Alternativas VALUES(?, 287, \"Goldwin\",0);\n
+		INSERT INTO Perguntas VALUES(288,15,\" O termo Impressionismo nasceu de uma tela de:\");\n
+		INSERT INTO Alternativas VALUES(?, 288, \"Edouard Manet\",0);\n
+		INSERT INTO Alternativas VALUES(?, 288, \"August Renoir\",0);\n
+		INSERT INTO Alternativas VALUES(?, 288, \"Claude Monet\",1);\n
+		INSERT INTO Alternativas VALUES(?, 288, \"Paul Cézanne\",0);\n
+		INSERT INTO Perguntas VALUES(289,15,\" Quem na mitologia grega roubou o fogo do Olimpo?\");\n
+		INSERT INTO Alternativas VALUES(?, 289, \"Hércules\",0);\n
+		INSERT INTO Alternativas VALUES(?, 289, \"Sísifo\",0);\n
+		INSERT INTO Alternativas VALUES(?, 289, \"Prometeu\",1);\n
+		INSERT INTO Alternativas VALUES(?, 289, \"Apolo\",0);\n
+		INSERT INTO Perguntas VALUES(290,15,\" Que instrumento é usado para medir a pressão dos gases?\");\n
+		INSERT INTO Alternativas VALUES(?, 290, \"Manômetro\",1);\n
+		INSERT INTO Alternativas VALUES(?, 290, \"Termômetro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 290, \"Barômetro\",0);\n
+		INSERT INTO Alternativas VALUES(?, 290, \"Bafômetro\",0);\n
+		INSERT INTO Perguntas VALUES(291,15,\" Onde fica a cidade de Palo Alto?\");\n
+		INSERT INTO Alternativas VALUES(?, 291, \"Nos Estados Unidos\",1);\n
+		INSERT INTO Alternativas VALUES(?, 291, \"Na Argentina\",0);\n
+		INSERT INTO Alternativas VALUES(?, 291, \"No México\",0);\n
+		INSERT INTO Alternativas VALUES(?, 291, \"Na Espanha\",0);\n
+		INSERT INTO Perguntas VALUES(292,15,\" Como se chama um recife de coral que forma uma laguna?\");\n
+		INSERT INTO Alternativas VALUES(?, 292, \"Arquipélago\",0);\n
+		INSERT INTO Alternativas VALUES(?, 292, \"Mar\",0);\n
+		INSERT INTO Alternativas VALUES(?, 292, \"Pequeno Lago\",0);\n
+		INSERT INTO Alternativas VALUES(?, 292, \"Atol\",1);\n
+		INSERT INTO Perguntas VALUES(293,15,\" Aconcágua é:\");\n
+		INSERT INTO Alternativas VALUES(?, 293, \"Uma Pedra\",0);\n
+		INSERT INTO Alternativas VALUES(?, 293, \"Um Vulcão Extinto\",1);\n
+		INSERT INTO Alternativas VALUES(?, 293, \"Um Lago\",0);\n
+		INSERT INTO Alternativas VALUES(?, 293, \"Um Canal\",0);\n
+		INSERT INTO Perguntas VALUES(294,15,\" Qual compositor teve o corpo enterrado na França e o coração na Polônia?\");\n
+		INSERT INTO Alternativas VALUES(?, 294, \"Schuman\",0);\n
+		INSERT INTO Alternativas VALUES(?, 294, \"Chopin\",1);\n
+		INSERT INTO Alternativas VALUES(?, 294, \"Grieg\",0);\n
+		INSERT INTO Alternativas VALUES(?, 294, \"Scarlatti\",0);\n
+		INSERT INTO Perguntas VALUES(295,15,\" Qual a vibração sonora de freqüência superior a 20.000 ciclos/seg?\");\n
+		INSERT INTO Alternativas VALUES(?, 295, \"Ultra-Som\",1);\n
+		INSERT INTO Alternativas VALUES(?, 295, \"Alto-Som\",0);\n
+		INSERT INTO Alternativas VALUES(?, 295, \"Hiper-Som\",0);\n
+		INSERT INTO Alternativas VALUES(?, 295, \"Macro-Som\",0);\n
+		INSERT INTO Perguntas VALUES(296,15,\" Uma mulher ultriz é o quê?\");\n
+		INSERT INTO Alternativas VALUES(?, 296, \"Sábia\",0);\n
+		INSERT INTO Alternativas VALUES(?, 296, \"Vingadora\",1);\n
+		INSERT INTO Alternativas VALUES(?, 296, \"Amante\",0);\n
+		INSERT INTO Alternativas VALUES(?, 296, \"Adúltera\",0);\n
+		INSERT INTO Perguntas VALUES(297,15,\" Que arquiteto desenhou a pirâmide de vidro do jardim do Louvre?\");\n
+		INSERT INTO Alternativas VALUES(?, 297, \"Philip Johnson\",0);\n
+		INSERT INTO Alternativas VALUES(?, 297, \"Le Corbusier\",0);\n
+		INSERT INTO Alternativas VALUES(?, 297, \"Frank Gehry\",0);\n
+		INSERT INTO Alternativas VALUES(?, 297, \"I.M. Pei\",1);\n
+		INSERT INTO Perguntas VALUES(298,15,\" Qual foi a capital do Japão antes de Tóquio?\");\n
+		INSERT INTO Alternativas VALUES(?, 298, \"Quioto\",1);\n
+		INSERT INTO Alternativas VALUES(?, 298, \"Fukuoka\",0);\n
+		INSERT INTO Alternativas VALUES(?, 298, \"Osaka\",0);\n
+		INSERT INTO Alternativas VALUES(?, 298, \"Sendai\",0);\n
+		INSERT INTO Perguntas VALUES(299,15,\" Incluindo os tentáculos, quantos braços uma lula tem normalmente?\");\n
+		INSERT INTO Alternativas VALUES(?, 299, \"Dez\",1);\n
+		INSERT INTO Alternativas VALUES(?, 299, \"Oito\",0);\n
+		INSERT INTO Alternativas VALUES(?, 299, \"Doze\",0);\n
+		INSERT INTO Alternativas VALUES(?, 299, \"Seis\",0);\n
+							    	    	    			
+	</string>
+</resources>

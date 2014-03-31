@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgplacar"
+    android:orientation="vertical" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="145dp" >
+      
+	<TextView
+	    android:id="@+id/cabecalhoNome"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="false"
+	    android:layout_marginLeft="50dp"
+	    android:gravity="right"
+	    android:text="Nome"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/cabecalhoPontos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="64dp"
+        android:layout_toRightOf="@+id/cabecalhoNome"
+        android:gravity="right"
+        android:text="Pontos"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="164dp"
+        android:orientation="horizontal" >
+
+    </ListView>
+
+</LinearLayout>
